@@ -2,54 +2,42 @@ SECTION "_001F_func_000056BF",ROMX[$000056BF],BANK[$001F]
 
 	ld a, c ;000056BF
 	cp $0002 ;000056C0
-	z_UNTAKEN_JUMP_2 ;000056C2
+	jr z, LAB_001F_000056C8 ;z_UNTAKEN_JUMP_2 ;000056C2
 	cp $0006 ;000056C4
 	jr nz, LAB_001F_000056F5 ;000056C6
-	nop ; not executed offset: 000056C8
-	nop ; not executed offset: 000056C9
-	nop ; not executed offset: 000056CA
-	nop ; not executed offset: 000056CB
-	nop ; not executed offset: 000056CC
-	nop ; not executed offset: 000056CD
-	nop ; not executed offset: 000056CE
-	nop ; not executed offset: 000056CF
+LAB_001F_000056C8:
+	push de ;000056C8
+	ld de, $C0E6 ;000056C9
+	cp $0002 ;000056CC
+	jr z, LAB_001F_000056D3 ;000056CE
 	nop ; not executed offset: 000056D0
 	nop ; not executed offset: 000056D1
 	nop ; not executed offset: 000056D2
-	nop ; not executed offset: 000056D3
-	nop ; not executed offset: 000056D4
-	nop ; not executed offset: 000056D5
-	nop ; not executed offset: 000056D6
-	nop ; not executed offset: 000056D7
-	nop ; not executed offset: 000056D8
-	nop ; not executed offset: 000056D9
-	nop ; not executed offset: 000056DA
-	nop ; not executed offset: 000056DB
-	nop ; not executed offset: 000056DC
-	nop ; not executed offset: 000056DD
-	nop ; not executed offset: 000056DE
-	nop ; not executed offset: 000056DF
-	nop ; not executed offset: 000056E0
-	nop ; not executed offset: 000056E1
-	nop ; not executed offset: 000056E2
-	nop ; not executed offset: 000056E3
-	nop ; not executed offset: 000056E4
-	nop ; not executed offset: 000056E5
-	nop ; not executed offset: 000056E6
-	nop ; not executed offset: 000056E7
-	nop ; not executed offset: 000056E8
-	nop ; not executed offset: 000056E9
-	nop ; not executed offset: 000056EA
-	nop ; not executed offset: 000056EB
-	nop ; not executed offset: 000056EC
-	nop ; not executed offset: 000056ED
-	nop ; not executed offset: 000056EE
-	nop ; not executed offset: 000056EF
-	nop ; not executed offset: 000056F0
-	nop ; not executed offset: 000056F1
-	nop ; not executed offset: 000056F2
-	nop ; not executed offset: 000056F3
-	nop ; not executed offset: 000056F4
+LAB_001F_000056D3:
+	ld a, [de] ;000056D3
+	add a ;000056D4
+	ld d, $0000 ;000056D5
+	ld e, a ;000056D7
+	ld hl, $4361 ;000056D8
+	add hl, de ;000056DB
+	ld e, [hl] ;000056DC
+	inc hl ;000056DD
+	ld d, [hl] ;000056DE
+	ld hl, $FF30 ;000056DF
+	ld b, $000F ;000056E2
+	ld a, $0000 ;000056E4
+	ldh [$001A], a ;000056E6
+LAB_001F_000056E8:
+	ld a, [de] ;000056E8
+	inc de ;000056E9
+	ld [hli], a ;000056EA
+	ld a, b ;000056EB
+	dec b ;000056EC
+	and a ;000056ED
+	jr nz, LAB_001F_000056E8 ;z_UNTAKEN_JUMP_2 ;000056EE
+	ld a, $0080 ;000056F0
+	ldh [$001A], a ;000056F2
+	pop de ;000056F4
 LAB_001F_000056F5:
 	ld a, d ;000056F5
 	or $0080 ;000056F6

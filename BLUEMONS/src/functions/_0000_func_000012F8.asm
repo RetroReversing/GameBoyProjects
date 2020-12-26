@@ -10,13 +10,14 @@ LAB_0000_000012F8:
 	z_UNTAKEN_JUMP_2 ;00001304
 	ldh a, [$00B5] ;00001306
 	and $000D ;00001308
-	z_UNTAKEN_JUMP_2 ;0000130A
+	jr nz, LAB_0000_00001311 ;z_UNTAKEN_JUMP_2 ;0000130A
 	dec c ;0000130C
 	jr nz, LAB_0000_000012F8 ;z_UNTAKEN_JUMP_2 ;0000130D
 	and a ;0000130F
 	RET ;00001310
-	nop ; not executed offset: 00001311
-	nop ; not executed offset: 00001312
+LAB_0000_00001311:
+	scf ;00001311
+	RET ;00001312
 	nop ; not executed offset: 00001313
 	nop ; not executed offset: 00001314
 	nop ; not executed offset: 00001315

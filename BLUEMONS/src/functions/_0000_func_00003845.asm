@@ -11,12 +11,10 @@ LAB_0000_00003851:
 	ldh [$00B5], a ;00003851
 	ldh a, [$00B3] ;00003853
 	and a ;00003855
-	jr z, LAB_0000_0000385D ;00003856
-	nop ; not executed offset: 00003858
-	nop ; not executed offset: 00003859
-	nop ; not executed offset: 0000385A
-	nop ; not executed offset: 0000385B
-	nop ; not executed offset: 0000385C
+	jr z, LAB_0000_0000385D ;z_UNTAKEN_JUMP_2 ;00003856
+	ld a, $001E ;00003858
+	ldh [$00D5], a ;0000385A
+	RET ;0000385C
 LAB_0000_0000385D:
 	ldh a, [$00D5] ;0000385D
 	and a ;0000385F

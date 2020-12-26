@@ -181,7 +181,4 @@ LAB_0013_00007E6B:
 	nop ; not executed offset: 00007F09
 	nop ; not executed offset: 00007F0A
 	nop ; not executed offset: 00007F0B
-	nop ; not executed offset: 00007F0C
-	nop ; not executed offset: 00007F0D
-	nop ; not executed offset: 00007F0E
 ;stopped writing due to overlap with another section

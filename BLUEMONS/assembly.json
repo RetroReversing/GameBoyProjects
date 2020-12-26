@@ -663,6 +663,10 @@
       }
     },
     "0000130A": {
+      "jr nz, LAB_0000_00001311": {
+        "bytes": "2005",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2005",
         "bytes_length": 2
@@ -691,6 +695,19 @@
       }
     },
     "00001310": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00001311": {
+      "label_name": "LAB_0000_00001311",
+      "scf": {
+        "bytes": "37",
+        "bytes_length": 1
+      }
+    },
+    "00001312": {
       "RET": {
         "bytes": "C9",
         "bytes_length": 1
@@ -3152,6 +3169,18 @@
         "bytes_length": 3
       }
     },
+    "00001FF1": {
+      "call $0061": {
+        "bytes": "CD6100",
+        "bytes_length": 3
+      }
+    },
+    "00001FF4": {
+      "call $2004": {
+        "bytes": "CD0420",
+        "bytes_length": 3
+      }
+    },
     "00002004": {
       "ld hl, $8000": {
         "bytes": "210080",
@@ -3665,6 +3694,89 @@
         "bytes_length": 1
       }
     },
+    "000020D8": {
+      "ld hl, $211C": {
+        "bytes": "211C21",
+        "bytes_length": 3
+      }
+    },
+    "000020DB": {
+      "ld b, $0003": {
+        "bytes": "0603",
+        "bytes_length": 2
+      }
+    },
+    "000020DD": {
+      "label_name": "LAB_0000_000020DD",
+      "ld a, [hli]": {
+        "bytes": "2A",
+        "bytes_length": 1
+      }
+    },
+    "000020DE": {
+      "ldh [$0047], a": {
+        "bytes": "E047",
+        "bytes_length": 2
+      }
+    },
+    "000020E0": {
+      "ld a, [hli]": {
+        "bytes": "2A",
+        "bytes_length": 1
+      }
+    },
+    "000020E1": {
+      "ldh [$0048], a": {
+        "bytes": "E048",
+        "bytes_length": 2
+      }
+    },
+    "000020E3": {
+      "ld a, [hli]": {
+        "bytes": "2A",
+        "bytes_length": 1
+      }
+    },
+    "000020E4": {
+      "ldh [$0049], a": {
+        "bytes": "E049",
+        "bytes_length": 2
+      }
+    },
+    "000020E6": {
+      "ld c, $0008": {
+        "bytes": "0E08",
+        "bytes_length": 2
+      }
+    },
+    "000020E8": {
+      "call $374D": {
+        "bytes": "CD4D37",
+        "bytes_length": 3
+      }
+    },
+    "000020EB": {
+      "dec b": {
+        "bytes": "05",
+        "bytes_length": 1
+      }
+    },
+    "000020EC": {
+      "jr nz, LAB_0000_000020DD": {
+        "bytes": "20EF",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20EF",
+        "bytes_length": 2
+      }
+    },
+    "000020EE": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
     "000023B1": {
       "push hl": {
         "bytes": "E5",
@@ -3705,6 +3817,40 @@
       "jr z, LAB_0000_000023C8": {
         "bytes": "280D",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "280D",
+        "bytes_length": 2
+      }
+    },
+    "000023BB": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "000023BC": {
+      "ld [$C02A], a": {
+        "bytes": "EA2AC0",
+        "bytes_length": 3
+      }
+    },
+    "000023BF": {
+      "ld [$C02B], a": {
+        "bytes": "EA2BC0",
+        "bytes_length": 3
+      }
+    },
+    "000023C2": {
+      "ld [$C02C], a": {
+        "bytes": "EA2CC0",
+        "bytes_length": 3
+      }
+    },
+    "000023C5": {
+      "ld [$C02D], a": {
+        "bytes": "EA2DC0",
+        "bytes_length": 3
       }
     },
     "000023C8": {
@@ -4201,6 +4347,28 @@
       "jr z, LAB_0000_0000385D": {
         "bytes": "2805",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2805",
+        "bytes_length": 2
+      }
+    },
+    "00003858": {
+      "ld a, $001E": {
+        "bytes": "3E1E",
+        "bytes_length": 2
+      }
+    },
+    "0000385A": {
+      "ldh [$00D5], a": {
+        "bytes": "E0D5",
+        "bytes_length": 2
+      }
+    },
+    "0000385C": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
       }
     },
     "0000385D": {
@@ -4517,6 +4685,84 @@
       }
     },
     "00003EA7": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00003EA8": {
+      "ld a, [$CC4F]": {
+        "bytes": "FA4FCC",
+        "bytes_length": 3
+      }
+    },
+    "00003EAB": {
+      "ld h, a": {
+        "bytes": "67",
+        "bytes_length": 1
+      }
+    },
+    "00003EAC": {
+      "ld a, [$CC50]": {
+        "bytes": "FA50CC",
+        "bytes_length": 3
+      }
+    },
+    "00003EAF": {
+      "ld l, a": {
+        "bytes": "6F",
+        "bytes_length": 1
+      }
+    },
+    "00003EB0": {
+      "ld a, [$CC51]": {
+        "bytes": "FA51CC",
+        "bytes_length": 3
+      }
+    },
+    "00003EB3": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00003EB4": {
+      "ld a, [$CC52]": {
+        "bytes": "FA52CC",
+        "bytes_length": 3
+      }
+    },
+    "00003EB7": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "00003EB8": {
+      "ld a, [$CC53]": {
+        "bytes": "FA53CC",
+        "bytes_length": 3
+      }
+    },
+    "00003EBB": {
+      "ld b, a": {
+        "bytes": "47",
+        "bytes_length": 1
+      }
+    },
+    "00003EBC": {
+      "ld a, [$CC54]": {
+        "bytes": "FA54CC",
+        "bytes_length": 3
+      }
+    },
+    "00003EBF": {
+      "ld c, a": {
+        "bytes": "4F",
+        "bytes_length": 1
+      }
+    },
+    "00003EC0": {
       "RET": {
         "bytes": "C9",
         "bytes_length": 1
@@ -5496,6 +5742,718 @@
         "bytes_length": 3
       }
     },
+    "0000568B": {
+      "call $569D": {
+        "bytes": "CD9D56",
+        "bytes_length": 3
+      }
+    },
+    "0000568E": {
+      "call $20D8": {
+        "bytes": "CDD820",
+        "bytes_length": 3
+      }
+    },
+    "00005691": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "00005692": {
+      "ldh [$00AE], a": {
+        "bytes": "E0AE",
+        "bytes_length": 2
+      }
+    },
+    "00005694": {
+      "ldh [$00BA], a": {
+        "bytes": "E0BA",
+        "bytes_length": 2
+      }
+    },
+    "00005696": {
+      "call $0082": {
+        "bytes": "CD8200",
+        "bytes_length": 3
+      }
+    },
+    "00005699": {
+      "call $20AF": {
+        "bytes": "CDAF20",
+        "bytes_length": 3
+      }
+    },
+    "0000569C": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "0000569D": {
+      "ld b, $0007": {
+        "bytes": "0607",
+        "bytes_length": 2
+      }
+    },
+    "0000569F": {
+      "call $3E03": {
+        "bytes": "CD033E",
+        "bytes_length": 3
+      }
+    },
+    "000056A2": {
+      "ld a, $00E4": {
+        "bytes": "3EE4",
+        "bytes_length": 2
+      }
+    },
+    "000056A4": {
+      "ldh [$0047], a": {
+        "bytes": "E047",
+        "bytes_length": 2
+      }
+    },
+    "000056A6": {
+      "ldh [$0048], a": {
+        "bytes": "E048",
+        "bytes_length": 2
+      }
+    },
+    "000056A8": {
+      "ldh [$0049], a": {
+        "bytes": "E049",
+        "bytes_length": 2
+      }
+    },
+    "000056AA": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "000056AB": {
+      "ldh [$00AE], a": {
+        "bytes": "E0AE",
+        "bytes_length": 2
+      }
+    },
+    "000056AD": {
+      "ld b, $0003": {
+        "bytes": "0603",
+        "bytes_length": 2
+      }
+    },
+    "000056AF": {
+      "call $583F": {
+        "bytes": "CD3F58",
+        "bytes_length": 3
+      }
+    },
+    "000056B2": {
+      "ld a, $0000": {
+        "bytes": "3E00",
+        "bytes_length": 2
+      }
+    },
+    "000056B4": {
+      "ld [$D081], a": {
+        "bytes": "EA81D0",
+        "bytes_length": 3
+      }
+    },
+    "000056B7": {
+      "ld a, $0050": {
+        "bytes": "3E50",
+        "bytes_length": 2
+      }
+    },
+    "000056B9": {
+      "ld [$D082], a": {
+        "bytes": "EA82D0",
+        "bytes_length": 3
+      }
+    },
+    "000056BC": {
+      "ld bc, $0606": {
+        "bytes": "010606",
+        "bytes_length": 3
+      }
+    },
+    "000056BF": {
+      "call $57C7": {
+        "bytes": "CDC757",
+        "bytes_length": 3
+      }
+    },
+    "000056C2": {
+      "ld de, $28FF": {
+        "bytes": "11FF28",
+        "bytes_length": 3
+      }
+    },
+    "000056C5": {
+      "call $580E": {
+        "bytes": "CD0E58",
+        "bytes_length": 3
+      }
+    },
+    "000056C8": {
+      "ret c": {
+        "bytes": "D8",
+        "bytes_length": 1
+      }
+    },
+    "000056C9": {
+      "ld a, $00B9": {
+        "bytes": "3EB9",
+        "bytes_length": 2
+      }
+    },
+    "000056CB": {
+      "call $23B1": {
+        "bytes": "CDB123",
+        "bytes_length": 3
+      }
+    },
+    "000056CE": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "000056CF": {
+      "ld [$D09F], a": {
+        "bytes": "EA9FD0",
+        "bytes_length": 3
+      }
+    },
+    "000056D2": {
+      "ld de, $5910": {
+        "bytes": "111059",
+        "bytes_length": 3
+      }
+    },
+    "000056D5": {
+      "call $5793": {
+        "bytes": "CD9357",
+        "bytes_length": 3
+      }
+    },
+    "000056D8": {
+      "ld a, $00BA": {
+        "bytes": "3EBA",
+        "bytes_length": 2
+      }
+    },
+    "000056DA": {
+      "call $23B1": {
+        "bytes": "CDB123",
+        "bytes_length": 3
+      }
+    },
+    "000056DD": {
+      "ld de, $591B": {
+        "bytes": "111B59",
+        "bytes_length": 3
+      }
+    },
+    "000056E0": {
+      "call $5793": {
+        "bytes": "CD9357",
+        "bytes_length": 3
+      }
+    },
+    "000056E3": {
+      "ld c, $000A": {
+        "bytes": "0E0A",
+        "bytes_length": 2
+      }
+    },
+    "000056E5": {
+      "call $12F8": {
+        "bytes": "CDF812",
+        "bytes_length": 3
+      }
+    },
+    "000056E8": {
+      "ret c": {
+        "bytes": "D8",
+        "bytes_length": 1
+      }
+    },
+    "000056E9": {
+      "ld a, $00B9": {
+        "bytes": "3EB9",
+        "bytes_length": 2
+      }
+    },
+    "000056EB": {
+      "call $23B1": {
+        "bytes": "CDB123",
+        "bytes_length": 3
+      }
+    },
+    "000056EE": {
+      "ld de, $5910": {
+        "bytes": "111059",
+        "bytes_length": 3
+      }
+    },
+    "000056F1": {
+      "call $5793": {
+        "bytes": "CD9357",
+        "bytes_length": 3
+      }
+    },
+    "000056F4": {
+      "ld a, $00BA": {
+        "bytes": "3EBA",
+        "bytes_length": 2
+      }
+    },
+    "000056F6": {
+      "call $23B1": {
+        "bytes": "CDB123",
+        "bytes_length": 3
+      }
+    },
+    "000056F9": {
+      "ld de, $591B": {
+        "bytes": "111B59",
+        "bytes_length": 3
+      }
+    },
+    "000056FC": {
+      "call $5793": {
+        "bytes": "CD9357",
+        "bytes_length": 3
+      }
+    },
+    "000056FF": {
+      "ld c, $001E": {
+        "bytes": "0E1E",
+        "bytes_length": 2
+      }
+    },
+    "00005701": {
+      "call $12F8": {
+        "bytes": "CDF812",
+        "bytes_length": 3
+      }
+    },
+    "00005704": {
+      "ret c": {
+        "bytes": "D8",
+        "bytes_length": 1
+      }
+    },
+    "00005705": {
+      "ld b, $0004": {
+        "bytes": "0604",
+        "bytes_length": 2
+      }
+    },
+    "00005707": {
+      "call $583F": {
+        "bytes": "CD3F58",
+        "bytes_length": 3
+      }
+    },
+    "0000570A": {
+      "ld a, $00BB": {
+        "bytes": "3EBB",
+        "bytes_length": 2
+      }
+    },
+    "0000570C": {
+      "call $23B1": {
+        "bytes": "CDB123",
+        "bytes_length": 3
+      }
+    },
+    "0000570F": {
+      "ld de, $0401": {
+        "bytes": "110104",
+        "bytes_length": 3
+      }
+    },
+    "00005712": {
+      "call $580E": {
+        "bytes": "CD0E58",
+        "bytes_length": 3
+      }
+    },
+    "00005715": {
+      "ld c, $001E": {
+        "bytes": "0E1E",
+        "bytes_length": 2
+      }
+    },
+    "00005717": {
+      "call $12F8": {
+        "bytes": "CDF812",
+        "bytes_length": 3
+      }
+    },
+    "0000571A": {
+      "ret c": {
+        "bytes": "D8",
+        "bytes_length": 1
+      }
+    },
+    "00005793": {
+      "label_name": "LAB_0010_00005793",
+      "ld a, [de]": {
+        "bytes": "1A",
+        "bytes_length": 1
+      }
+    },
+    "00005794": {
+      "cp $0050": {
+        "bytes": "FE50",
+        "bytes_length": 2
+      }
+    },
+    "00005796": {
+      "ret z": {
+        "bytes": "C8",
+        "bytes_length": 1
+      }
+    },
+    "00005797": {
+      "ld [$D082], a": {
+        "bytes": "EA82D0",
+        "bytes_length": 3
+      }
+    },
+    "0000579A": {
+      "inc de": {
+        "bytes": "13",
+        "bytes_length": 1
+      }
+    },
+    "0000579B": {
+      "ld a, [de]": {
+        "bytes": "1A",
+        "bytes_length": 1
+      }
+    },
+    "0000579C": {
+      "ld [$D081], a": {
+        "bytes": "EA81D0",
+        "bytes_length": 3
+      }
+    },
+    "0000579F": {
+      "push de": {
+        "bytes": "D5",
+        "bytes_length": 1
+      }
+    },
+    "000057A0": {
+      "ld c, $0024": {
+        "bytes": "0E24",
+        "bytes_length": 2
+      }
+    },
+    "000057A2": {
+      "call $57AE": {
+        "bytes": "CDAE57",
+        "bytes_length": 3
+      }
+    },
+    "000057A5": {
+      "ld c, $0005": {
+        "bytes": "0E05",
+        "bytes_length": 2
+      }
+    },
+    "000057A7": {
+      "call $374D": {
+        "bytes": "CD4D37",
+        "bytes_length": 3
+      }
+    },
+    "000057AA": {
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
+      }
+    },
+    "000057AB": {
+      "inc de": {
+        "bytes": "13",
+        "bytes_length": 1
+      }
+    },
+    "000057AC": {
+      "jr LAB_0010_00005793": {
+        "bytes": "18E5",
+        "bytes_length": 2
+      }
+    },
+    "000057AE": {
+      "ld hl, $C300": {
+        "bytes": "2100C3",
+        "bytes_length": 3
+      }
+    },
+    "000057B1": {
+      "ld a, [$D09F]": {
+        "bytes": "FA9FD0",
+        "bytes_length": 3
+      }
+    },
+    "000057B4": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "000057B5": {
+      "label_name": "LAB_0010_000057B5",
+      "ld a, [$D082]": {
+        "bytes": "FA82D0",
+        "bytes_length": 3
+      }
+    },
+    "000057B8": {
+      "add [hl]": {
+        "bytes": "86",
+        "bytes_length": 1
+      }
+    },
+    "000057B9": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057BA": {
+      "ld a, [$D081]": {
+        "bytes": "FA81D0",
+        "bytes_length": 3
+      }
+    },
+    "000057BD": {
+      "add [hl]": {
+        "bytes": "86",
+        "bytes_length": 1
+      }
+    },
+    "000057BE": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057BF": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "000057C0": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057C1": {
+      "inc hl": {
+        "bytes": "23",
+        "bytes_length": 1
+      }
+    },
+    "000057C2": {
+      "inc d": {
+        "bytes": "14",
+        "bytes_length": 1
+      }
+    },
+    "000057C3": {
+      "dec c": {
+        "bytes": "0D",
+        "bytes_length": 1
+      }
+    },
+    "000057C4": {
+      "jr nz, LAB_0010_000057B5": {
+        "bytes": "20EF",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20EF",
+        "bytes_length": 2
+      }
+    },
+    "000057C6": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "000057C7": {
+      "ld hl, $C300": {
+        "bytes": "2100C3",
+        "bytes_length": 3
+      }
+    },
+    "000057CA": {
+      "ld d, $0000": {
+        "bytes": "1600",
+        "bytes_length": 2
+      }
+    },
+    "000057CC": {
+      "label_name": "LAB_0010_000057CC",
+      "push bc": {
+        "bytes": "C5",
+        "bytes_length": 1
+      }
+    },
+    "000057CD": {
+      "ld a, [$D082]": {
+        "bytes": "FA82D0",
+        "bytes_length": 3
+      }
+    },
+    "000057D0": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "000057D1": {
+      "label_name": "LAB_0010_000057D1",
+      "ld a, e": {
+        "bytes": "7B",
+        "bytes_length": 1
+      }
+    },
+    "000057D2": {
+      "add $0008": {
+        "bytes": "C608",
+        "bytes_length": 2
+      }
+    },
+    "000057D4": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "000057D5": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057D6": {
+      "ld a, [$D081]": {
+        "bytes": "FA81D0",
+        "bytes_length": 3
+      }
+    },
+    "000057D9": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057DA": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "000057DB": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057DC": {
+      "ld a, $0080": {
+        "bytes": "3E80",
+        "bytes_length": 2
+      }
+    },
+    "000057DE": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000057DF": {
+      "inc d": {
+        "bytes": "14",
+        "bytes_length": 1
+      }
+    },
+    "000057E0": {
+      "dec c": {
+        "bytes": "0D",
+        "bytes_length": 1
+      }
+    },
+    "000057E1": {
+      "jr nz, LAB_0010_000057D1": {
+        "bytes": "20EE",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20EE",
+        "bytes_length": 2
+      }
+    },
+    "000057E3": {
+      "ld a, [$D081]": {
+        "bytes": "FA81D0",
+        "bytes_length": 3
+      }
+    },
+    "000057E6": {
+      "add $0008": {
+        "bytes": "C608",
+        "bytes_length": 2
+      }
+    },
+    "000057E8": {
+      "ld [$D081], a": {
+        "bytes": "EA81D0",
+        "bytes_length": 3
+      }
+    },
+    "000057EB": {
+      "pop bc": {
+        "bytes": "C1",
+        "bytes_length": 1
+      }
+    },
+    "000057EC": {
+      "dec b": {
+        "bytes": "05",
+        "bytes_length": 1
+      }
+    },
+    "000057ED": {
+      "jr nz, LAB_0010_000057CC": {
+        "bytes": "20DD",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20DD",
+        "bytes_length": 2
+      }
+    },
+    "000057EF": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
     "000057F0": {
       "ld hl, $9C00": {
         "bytes": "21009C",
@@ -5512,6 +6470,18 @@
       "jr LAB_0010_000057FE": {
         "bytes": "1806",
         "bytes_length": 2
+      }
+    },
+    "000057F8": {
+      "ld hl, $C3F0": {
+        "bytes": "21F0C3",
+        "bytes_length": 3
+      }
+    },
+    "000057FB": {
+      "ld bc, $00C8": {
+        "bytes": "01C800",
+        "bytes_length": 3
       }
     },
     "000057FE": {
@@ -5594,6 +6564,191 @@
       "RET": {
         "bytes": "C9",
         "bytes_length": 1
+      }
+    },
+    "0000580E": {
+      "label_name": "LAB_0010_0000580E",
+      "ld a, e": {
+        "bytes": "7B",
+        "bytes_length": 1
+      }
+    },
+    "0000580F": {
+      "cp $00FF": {
+        "bytes": "FEFF",
+        "bytes_length": 2
+      }
+    },
+    "00005811": {
+      "jr z, LAB_0010_0000581D": {
+        "bytes": "280A",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "280A",
+        "bytes_length": 2
+      }
+    },
+    "00005813": {
+      "cp $0001": {
+        "bytes": "FE01",
+        "bytes_length": 2
+      }
+    },
+    "00005815": {
+      "jr z, LAB_0010_0000582D": {
+        "bytes": "2816",
+        "bytes_length": 2
+      }
+    },
+    "0000581D": {
+      "label_name": "LAB_0010_0000581D",
+      "push de": {
+        "bytes": "D5",
+        "bytes_length": 1
+      }
+    },
+    "0000581E": {
+      "ld a, $0002": {
+        "bytes": "3E02",
+        "bytes_length": 2
+      }
+    },
+    "00005820": {
+      "ld [$D081], a": {
+        "bytes": "EA81D0",
+        "bytes_length": 3
+      }
+    },
+    "00005823": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "00005824": {
+      "ld [$D082], a": {
+        "bytes": "EA82D0",
+        "bytes_length": 3
+      }
+    },
+    "00005827": {
+      "ld c, $0024": {
+        "bytes": "0E24",
+        "bytes_length": 2
+      }
+    },
+    "00005829": {
+      "call $57AE": {
+        "bytes": "CDAE57",
+        "bytes_length": 3
+      }
+    },
+    "0000582C": {
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
+      }
+    },
+    "0000582D": {
+      "label_name": "LAB_0010_0000582D",
+      "ldh a, [$00AE]": {
+        "bytes": "F0AE",
+        "bytes_length": 2
+      }
+    },
+    "0000582F": {
+      "inc a": {
+        "bytes": "3C",
+        "bytes_length": 1
+      }
+    },
+    "00005830": {
+      "inc a": {
+        "bytes": "3C",
+        "bytes_length": 1
+      }
+    },
+    "00005831": {
+      "ldh [$00AE], a": {
+        "bytes": "E0AE",
+        "bytes_length": 2
+      }
+    },
+    "00005833": {
+      "push de": {
+        "bytes": "D5",
+        "bytes_length": 1
+      }
+    },
+    "00005834": {
+      "ld c, $0002": {
+        "bytes": "0E02",
+        "bytes_length": 2
+      }
+    },
+    "00005836": {
+      "call $12F8": {
+        "bytes": "CDF812",
+        "bytes_length": 3
+      }
+    },
+    "00005839": {
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
+      }
+    },
+    "0000583A": {
+      "ret c": {
+        "bytes": "D8",
+        "bytes_length": 1
+      }
+    },
+    "0000583B": {
+      "dec d": {
+        "bytes": "15",
+        "bytes_length": 1
+      }
+    },
+    "0000583C": {
+      "jr nz, LAB_0010_0000580E": {
+        "bytes": "20D0",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20D0",
+        "bytes_length": 2
+      }
+    },
+    "0000583E": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "0000583F": {
+      "ld hl, $C439": {
+        "bytes": "2139C4",
+        "bytes_length": 3
+      }
+    },
+    "00005842": {
+      "ld c, $0000": {
+        "bytes": "0E00",
+        "bytes_length": 2
+      }
+    },
+    "00005844": {
+      "ld a, $0031": {
+        "bytes": "3E31",
+        "bytes_length": 2
+      }
+    },
+    "00005846": {
+      "jp $3E81": {
+        "bytes": "C3813E",
+        "bytes_length": 3
       }
     },
     "00005852": {
@@ -5857,6 +7012,90 @@
     "000058C4": {
       "call $35EA": {
         "bytes": "CDEA35",
+        "bytes_length": 3
+      }
+    },
+    "000058C7": {
+      "push af": {
+        "bytes": "F5",
+        "bytes_length": 1
+      }
+    },
+    "000058C8": {
+      "pop af": {
+        "bytes": "F1",
+        "bytes_length": 1
+      }
+    },
+    "000058C9": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3805",
+        "bytes_length": 2
+      }
+    },
+    "000058CB": {
+      "ld c, $0028": {
+        "bytes": "0E28",
+        "bytes_length": 2
+      }
+    },
+    "000058CD": {
+      "call $374D": {
+        "bytes": "CD4D37",
+        "bytes_length": 3
+      }
+    },
+    "000058D0": {
+      "ld a, $001F": {
+        "bytes": "3E1F",
+        "bytes_length": 2
+      }
+    },
+    "000058D2": {
+      "ld [$C0EF], a": {
+        "bytes": "EAEFC0",
+        "bytes_length": 3
+      }
+    },
+    "000058D5": {
+      "ld [$C0F0], a": {
+        "bytes": "EAF0C0",
+        "bytes_length": 3
+      }
+    },
+    "000058D8": {
+      "ld a, $00DC": {
+        "bytes": "3EDC",
+        "bytes_length": 2
+      }
+    },
+    "000058DA": {
+      "ld [$C0EE], a": {
+        "bytes": "EAEEC0",
+        "bytes_length": 3
+      }
+    },
+    "000058DD": {
+      "call $23B1": {
+        "bytes": "CDB123",
+        "bytes_length": 3
+      }
+    },
+    "000058E0": {
+      "call $57F8": {
+        "bytes": "CDF857",
+        "bytes_length": 3
+      }
+    },
+    "000058E3": {
+      "call $0082": {
+        "bytes": "CD8200",
+        "bytes_length": 3
+      }
+    },
+    "000058E6": {
+      "jp $3DEB": {
+        "bytes": "C3EB3D",
         "bytes_length": 3
       }
     },
@@ -6755,6 +7994,10 @@
       }
     },
     "000040BD": {
+      "jr z, LAB_001C_000040D5": {
+        "bytes": "2816",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2816",
         "bytes_length": 2
@@ -6852,7 +8095,8 @@
       "call $411F": {
         "bytes": "CD1F41",
         "bytes_length": 3
-      }
+      },
+      "label_name": "LAB_001C_000040D5"
     },
     "000040D8": {
       "push af": {
@@ -6918,6 +8162,22 @@
       "jr nz, LAB_001C_000040AF": {
         "bytes": "20C3",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20C3",
+        "bytes_length": 2
+      }
+    },
+    "000040EC": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "000040ED": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
       }
     },
     "0000411F": {
@@ -7689,6 +8949,304 @@
     }
   },
   "001E": {
+    "00005842": {
+      "ld hl, $5AEA": {
+        "bytes": "21EA5A",
+        "bytes_length": 3
+      }
+    },
+    "00005845": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "00005846": {
+      "ld d, $0000": {
+        "bytes": "1600",
+        "bytes_length": 2
+      }
+    },
+    "00005848": {
+      "add hl, de": {
+        "bytes": "19",
+        "bytes_length": 1
+      }
+    },
+    "00005849": {
+      "add hl, de": {
+        "bytes": "19",
+        "bytes_length": 1
+      }
+    },
+    "0000584A": {
+      "add hl, de": {
+        "bytes": "19",
+        "bytes_length": 1
+      }
+    },
+    "0000584B": {
+      "ld a, [hli]": {
+        "bytes": "2A",
+        "bytes_length": 1
+      }
+    },
+    "0000584C": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "0000584D": {
+      "ld a, [hli]": {
+        "bytes": "2A",
+        "bytes_length": 1
+      }
+    },
+    "0000584E": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "0000584F": {
+      "ld a, [hli]": {
+        "bytes": "2A",
+        "bytes_length": 1
+      }
+    },
+    "00005850": {
+      "ld b, a": {
+        "bytes": "47",
+        "bytes_length": 1
+      }
+    },
+    "00005851": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "00005853": {
+      "ld c, a": {
+        "bytes": "4F",
+        "bytes_length": 1
+      }
+    },
+    "00005854": {
+      "ld a, b": {
+        "bytes": "78",
+        "bytes_length": 1
+      }
+    },
+    "00005855": {
+      "swap a": {
+        "bytes": "CB37",
+        "bytes_length": 2
+      }
+    },
+    "00005857": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "00005859": {
+      "ld b, a": {
+        "bytes": "47",
+        "bytes_length": 1
+      }
+    },
+    "0000585A": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00005ACE": {
+      "push hl": {
+        "bytes": "E5",
+        "bytes_length": 1
+      }
+    },
+    "00005ACF": {
+      "label_name": "LAB_001E_00005ACF",
+      "push bc": {
+        "bytes": "C5",
+        "bytes_length": 1
+      }
+    },
+    "00005AD0": {
+      "push hl": {
+        "bytes": "E5",
+        "bytes_length": 1
+      }
+    },
+    "00005AD1": {
+      "ldh a, [$008B]": {
+        "bytes": "F08B",
+        "bytes_length": 2
+      }
+    },
+    "00005AD3": {
+      "ld b, a": {
+        "bytes": "47",
+        "bytes_length": 1
+      }
+    },
+    "00005AD4": {
+      "label_name": "LAB_001E_00005AD4",
+      "ld a, [de]": {
+        "bytes": "1A",
+        "bytes_length": 1
+      }
+    },
+    "00005AD5": {
+      "add b": {
+        "bytes": "80",
+        "bytes_length": 1
+      }
+    },
+    "00005AD6": {
+      "inc de": {
+        "bytes": "13",
+        "bytes_length": 1
+      }
+    },
+    "00005AD7": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "00005AD8": {
+      "dec c": {
+        "bytes": "0D",
+        "bytes_length": 1
+      }
+    },
+    "00005AD9": {
+      "jr nz, LAB_001E_00005AD4": {
+        "bytes": "20F9",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20F9",
+        "bytes_length": 2
+      }
+    },
+    "00005ADB": {
+      "pop hl": {
+        "bytes": "E1",
+        "bytes_length": 1
+      }
+    },
+    "00005ADC": {
+      "ld bc, $0014": {
+        "bytes": "011400",
+        "bytes_length": 3
+      }
+    },
+    "00005ADF": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005AE0": {
+      "pop bc": {
+        "bytes": "C1",
+        "bytes_length": 1
+      }
+    },
+    "00005AE1": {
+      "dec b": {
+        "bytes": "05",
+        "bytes_length": 1
+      }
+    },
+    "00005AE2": {
+      "jr nz, LAB_001E_00005ACF": {
+        "bytes": "20EB",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20EB",
+        "bytes_length": 2
+      }
+    },
+    "00005AE4": {
+      "ld a, $0001": {
+        "bytes": "3E01",
+        "bytes_length": 2
+      }
+    },
+    "00005AE6": {
+      "ldh [$00BA], a": {
+        "bytes": "E0BA",
+        "bytes_length": 2
+      }
+    },
+    "00005AE8": {
+      "pop hl": {
+        "bytes": "E1",
+        "bytes_length": 1
+      }
+    },
+    "00005AE9": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00005DDA": {
+      "call $3EA8": {
+        "bytes": "CDA83E",
+        "bytes_length": 3
+      }
+    },
+    "00005DDD": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "00005DDE": {
+      "ldh [$008B], a": {
+        "bytes": "E08B",
+        "bytes_length": 2
+      }
+    },
+    "00005DE0": {
+      "ld a, b": {
+        "bytes": "78",
+        "bytes_length": 1
+      }
+    },
+    "00005DE1": {
+      "push hl": {
+        "bytes": "E5",
+        "bytes_length": 1
+      }
+    },
+    "00005DE2": {
+      "call $5842": {
+        "bytes": "CD4258",
+        "bytes_length": 3
+      }
+    },
+    "00005DE5": {
+      "pop hl": {
+        "bytes": "E1",
+        "bytes_length": 1
+      }
+    },
+    "00005DE6": {
+      "jp $5ACE": {
+        "bytes": "C3CE5A",
+        "bytes_length": 3
+      }
+    },
     "0000FF80": {
       "ld a, $00C3": {
         "bytes": "3EC3",
@@ -7794,6 +9352,28 @@
     "00005186": {
       "jr nc, LAB_001F_000051A2": {
         "bytes": "301A",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "301A",
+        "bytes_length": 2
+      }
+    },
+    "00005188": {
+      "ld a, [$C002]": {
+        "bytes": "FA02C0",
+        "bytes_length": 3
+      }
+    },
+    "0000518B": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "0000518C": {
+      "jr z, LAB_001F_000051A2": {
+        "bytes": "2814",
         "bytes_length": 2
       }
     },
@@ -7907,6 +9487,50 @@
       "jr nc, LAB_001F_000051C8": {
         "bytes": "3009",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3009",
+        "bytes_length": 2
+      }
+    },
+    "000051BF": {
+      "ld hl, $C02A": {
+        "bytes": "212AC0",
+        "bytes_length": 3
+      }
+    },
+    "000051C2": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000051C3": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "000051C4": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "000051C5": {
+      "jr z, LAB_001F_000051C8": {
+        "bytes": "2801",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2801",
+        "bytes_length": 2
+      }
+    },
+    "000051C7": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
       }
     },
     "000051C8": {
@@ -7929,6 +9553,10 @@
       }
     },
     "000051CE": {
+      "jr z, LAB_001F_000051D3": {
+        "bytes": "2803",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2803",
         "bytes_length": 2
@@ -7941,6 +9569,7 @@
       }
     },
     "000051D3": {
+      "label_name": "LAB_001F_000051D3",
       "ld b, $0000": {
         "bytes": "0600",
         "bytes_length": 2
@@ -7992,6 +9621,75 @@
       "jr nz, LAB_001F_000051F9": {
         "bytes": "2014",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2014",
+        "bytes_length": 2
+      }
+    },
+    "000051E5": {
+      "ld hl, $C02E": {
+        "bytes": "212EC0",
+        "bytes_length": 3
+      }
+    },
+    "000051E8": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000051E9": {
+      "bit 4, [hl]": {
+        "bytes": "CB66",
+        "bytes_length": 2
+      }
+    },
+    "000051EB": {
+      "jr z, LAB_001F_000051F0": {
+        "bytes": "2803",
+        "bytes_length": 2
+      }
+    },
+    "000051F0": {
+      "label_name": "LAB_001F_000051F0",
+      "ld hl, $C04E": {
+        "bytes": "214EC0",
+        "bytes_length": 3
+      }
+    },
+    "000051F3": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000051F4": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "000051F5": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "000051F6": {
+      "jr z, LAB_001F_000051FA": {
+        "bytes": "2802",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2802",
+        "bytes_length": 2
+      }
+    },
+    "000051F8": {
+      "dec [hl]": {
+        "bytes": "35",
+        "bytes_length": 1
       }
     },
     "000051F9": {
@@ -8000,6 +9698,298 @@
         "bytes_length": 1
       },
       "label_name": "LAB_001F_000051F9"
+    },
+    "000051FA": {
+      "label_name": "LAB_001F_000051FA",
+      "ld hl, $C056": {
+        "bytes": "2156C0",
+        "bytes_length": 3
+      }
+    },
+    "000051FD": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000051FE": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "000051FF": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "00005200": {
+      "jr nz, LAB_001F_00005203": {
+        "bytes": "2001",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2001",
+        "bytes_length": 2
+      }
+    },
+    "00005202": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00005203": {
+      "label_name": "LAB_001F_00005203",
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00005204": {
+      "ld hl, $C05E": {
+        "bytes": "215EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005207": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005208": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "00005209": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "0000520B": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "0000520C": {
+      "jr z, LAB_001F_00005210": {
+        "bytes": "2802",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2802",
+        "bytes_length": 2
+      }
+    },
+    "0000520E": {
+      "dec [hl]": {
+        "bytes": "35",
+        "bytes_length": 1
+      }
+    },
+    "0000520F": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00005210": {
+      "label_name": "LAB_001F_00005210",
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "00005211": {
+      "swap [hl]": {
+        "bytes": "CB36",
+        "bytes_length": 2
+      }
+    },
+    "00005213": {
+      "or [hl]": {
+        "bytes": "B6",
+        "bytes_length": 1
+      }
+    },
+    "00005214": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "00005215": {
+      "ld hl, $C066": {
+        "bytes": "2166C0",
+        "bytes_length": 3
+      }
+    },
+    "00005218": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005219": {
+      "ld e, [hl]": {
+        "bytes": "5E",
+        "bytes_length": 1
+      }
+    },
+    "0000521A": {
+      "ld hl, $C02E": {
+        "bytes": "212EC0",
+        "bytes_length": 3
+      }
+    },
+    "0000521D": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "0000521E": {
+      "bit 3, [hl]": {
+        "bytes": "CB5E",
+        "bytes_length": 2
+      }
+    },
+    "00005220": {
+      "jr z, LAB_001F_00005230": {
+        "bytes": "280E",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "280E",
+        "bytes_length": 2
+      }
+    },
+    "00005222": {
+      "res 3, [hl]": {
+        "bytes": "CB9E",
+        "bytes_length": 2
+      }
+    },
+    "00005224": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005225": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "00005227": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00005228": {
+      "ld a, e": {
+        "bytes": "7B",
+        "bytes_length": 1
+      }
+    },
+    "0000522A": {
+      "jr nc, LAB_001F_0000522E": {
+        "bytes": "3002",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3002",
+        "bytes_length": 2
+      }
+    },
+    "0000522C": {
+      "ld a, $0000": {
+        "bytes": "3E00",
+        "bytes_length": 2
+      }
+    },
+    "0000522E": {
+      "jr LAB_001F_0000523C": {
+        "bytes": "180C",
+        "bytes_length": 2
+      },
+      "label_name": "LAB_001F_0000522E"
+    },
+    "00005230": {
+      "label_name": "LAB_001F_00005230",
+      "set 3, [hl]": {
+        "bytes": "CBDE",
+        "bytes_length": 2
+      }
+    },
+    "00005232": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005233": {
+      "and $00F0": {
+        "bytes": "E6F0",
+        "bytes_length": 2
+      }
+    },
+    "00005235": {
+      "swap a": {
+        "bytes": "CB37",
+        "bytes_length": 2
+      }
+    },
+    "00005237": {
+      "add e": {
+        "bytes": "83",
+        "bytes_length": 1
+      }
+    },
+    "00005238": {
+      "jr nc, LAB_001F_0000523C": {
+        "bytes": "3002",
+        "bytes_length": 2
+      }
+    },
+    "0000523C": {
+      "label_name": "LAB_001F_0000523C",
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "0000523D": {
+      "ld b, $0003": {
+        "bytes": "0603",
+        "bytes_length": 2
+      }
+    },
+    "0000523F": {
+      "call $58AC": {
+        "bytes": "CDAC58",
+        "bytes_length": 3
+      }
+    },
+    "00005242": {
+      "ld [hl], d": {
+        "bytes": "72",
+        "bytes_length": 1
+      }
+    },
+    "00005243": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
     },
     "00005244": {
       "ld hl, $C06E": {
@@ -8217,6 +10207,16 @@
       "jr nc, LAB_001F_000052C5": {
         "bytes": "3002",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3002",
+        "bytes_length": 2
+      }
+    },
+    "000052C3": {
+      "jr LAB_001F_000052E2": {
+        "bytes": "181D",
+        "bytes_length": 2
       }
     },
     "000052C5": {
@@ -8315,7 +10315,196 @@
       "jp nz, $5397": {
         "bytes": "C29753",
         "bytes_length": 3
+      },
+      "z_UNTAKEN_LONG_JUMP": {
+        "bytes": "0000C2",
+        "bytes_length": 3
       }
+    },
+    "0000535F": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005360": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "00005362": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "00005364": {
+      "ld hl, $C0C6": {
+        "bytes": "21C6C0",
+        "bytes_length": 3
+      }
+    },
+    "00005367": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005368": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "00005369": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "0000536A": {
+      "cp $0003": {
+        "bytes": "FE03",
+        "bytes_length": 2
+      }
+    },
+    "0000536C": {
+      "jr z, LAB_001F_00005394": {
+        "bytes": "2826",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2826",
+        "bytes_length": 2
+      }
+    },
+    "0000536E": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "00005371": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00005372": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "00005373": {
+      "cp $0002": {
+        "bytes": "FE02",
+        "bytes_length": 2
+      }
+    },
+    "00005375": {
+      "jr z, LAB_001F_00005380": {
+        "bytes": "2809",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2809",
+        "bytes_length": 2
+      }
+    },
+    "00005377": {
+      "cp $0006": {
+        "bytes": "FE06",
+        "bytes_length": 2
+      }
+    },
+    "00005379": {
+      "jr nz, LAB_001F_0000538D": {
+        "bytes": "2012",
+        "bytes_length": 2
+      }
+    },
+    "00005380": {
+      "label_name": "LAB_001F_00005380",
+      "ld hl, $C0E6": {
+        "bytes": "21E6C0",
+        "bytes_length": 3
+      }
+    },
+    "00005383": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005384": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "00005386": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "00005387": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005388": {
+      "and $0030": {
+        "bytes": "E630",
+        "bytes_length": 2
+      }
+    },
+    "0000538A": {
+      "sla a": {
+        "bytes": "CB27",
+        "bytes_length": 2
+      }
+    },
+    "0000538C": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "0000538D": {
+      "label_name": "LAB_001F_0000538D",
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "0000538F": {
+      "ld hl, $C0DE": {
+        "bytes": "21DEC0",
+        "bytes_length": 3
+      }
+    },
+    "00005392": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005393": {
+      "ld [hl], d": {
+        "bytes": "72",
+        "bytes_length": 1
+      }
+    },
+    "00005394": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
+      },
+      "label_name": "LAB_001F_00005394"
     },
     "00005397": {
       "ld a, d": {
@@ -8333,6 +10522,52 @@
       "jr nz, LAB_001F_000053A9": {
         "bytes": "200D",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "200D",
+        "bytes_length": 2
+      }
+    },
+    "0000539C": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "0000539E": {
+      "ld hl, $C02E": {
+        "bytes": "212EC0",
+        "bytes_length": 3
+      }
+    },
+    "000053A1": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000053A2": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "000053A3": {
+      "xor a, $0001": {
+        "bytes": "EE01",
+        "bytes_length": 2
+      }
+    },
+    "000053A5": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "000053A6": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
       }
     },
     "000053A9": {
@@ -8346,6 +10581,190 @@
       "jr nz, LAB_001F_000053E1": {
         "bytes": "2034",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2034",
+        "bytes_length": 2
+      }
+    },
+    "000053AD": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "000053B0": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "000053B2": {
+      "ld hl, $C04E": {
+        "bytes": "214EC0",
+        "bytes_length": 3
+      }
+    },
+    "000053B5": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000053B6": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "000053B7": {
+      "ld hl, $C06E": {
+        "bytes": "216EC0",
+        "bytes_length": 3
+      }
+    },
+    "000053BA": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000053BB": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "000053BC": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "000053BF": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "000053C0": {
+      "and $00F0": {
+        "bytes": "E6F0",
+        "bytes_length": 2
+      }
+    },
+    "000053C2": {
+      "swap a": {
+        "bytes": "CB37",
+        "bytes_length": 2
+      }
+    },
+    "000053C4": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "000053C6": {
+      "ld hl, $C056": {
+        "bytes": "2156C0",
+        "bytes_length": 3
+      }
+    },
+    "000053C9": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000053CA": {
+      "srl a": {
+        "bytes": "CB3F",
+        "bytes_length": 2
+      }
+    },
+    "000053CC": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "000053CD": {
+      "adc b": {
+        "bytes": "88",
+        "bytes_length": 1
+      }
+    },
+    "000053CE": {
+      "swap a": {
+        "bytes": "CB37",
+        "bytes_length": 2
+      }
+    },
+    "000053D0": {
+      "or e": {
+        "bytes": "B3",
+        "bytes_length": 1
+      }
+    },
+    "000053D1": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "000053D2": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "000053D3": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "000053D5": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "000053D6": {
+      "ld hl, $C05E": {
+        "bytes": "215EC0",
+        "bytes_length": 3
+      }
+    },
+    "000053D9": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000053DA": {
+      "swap a": {
+        "bytes": "CB37",
+        "bytes_length": 2
+      }
+    },
+    "000053DC": {
+      "or d": {
+        "bytes": "B2",
+        "bytes_length": 1
+      }
+    },
+    "000053DD": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "000053DE": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
       }
     },
     "000053E1": {
@@ -8372,6 +10791,64 @@
       "jr nz, LAB_001F_0000542E": {
         "bytes": "2011",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2011",
+        "bytes_length": 2
+      }
+    },
+    "0000541D": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "00005420": {
+      "rrca": {
+        "bytes": "0F",
+        "bytes_length": 1
+      }
+    },
+    "00005421": {
+      "rrca": {
+        "bytes": "0F",
+        "bytes_length": 1
+      }
+    },
+    "00005422": {
+      "and $00C0": {
+        "bytes": "E6C0",
+        "bytes_length": 2
+      }
+    },
+    "00005424": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "00005426": {
+      "ld hl, $C03E": {
+        "bytes": "213EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005429": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "0000542A": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "0000542B": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
       }
     },
     "0000542E": {
@@ -8385,7 +10862,96 @@
       "jr nz, LAB_001F_0000546E": {
         "bytes": "203C",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "203C",
+        "bytes_length": 2
       }
+    },
+    "00005432": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "00005433": {
+      "cp $0004": {
+        "bytes": "FE04",
+        "bytes_length": 2
+      }
+    },
+    "00005435": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "301B",
+        "bytes_length": 2
+      }
+    },
+    "00005437": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "0000543A": {
+      "ld [$C0E8], a": {
+        "bytes": "EAE8C0",
+        "bytes_length": 3
+      }
+    },
+    "0000543D": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "00005440": {
+      "ld [$C0E9], a": {
+        "bytes": "EAE9C0",
+        "bytes_length": 3
+      }
+    },
+    "00005443": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "00005444": {
+      "ld [$C0CE], a": {
+        "bytes": "EACEC0",
+        "bytes_length": 3
+      }
+    },
+    "00005447": {
+      "ld [$C0CF], a": {
+        "bytes": "EACFC0",
+        "bytes_length": 3
+      }
+    },
+    "0000544A": {
+      "ld [$C0D0], a": {
+        "bytes": "EAD0C0",
+        "bytes_length": 3
+      }
+    },
+    "0000544D": {
+      "ld [$C0D1], a": {
+        "bytes": "EAD1C0",
+        "bytes_length": 3
+      }
+    },
+    "00005450": {
+      "jr LAB_001F_0000546B": {
+        "bytes": "1819",
+        "bytes_length": 2
+      }
+    },
+    "0000546B": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
+      },
+      "label_name": "LAB_001F_0000546B"
     },
     "0000546E": {
       "cp $00EE": {
@@ -8519,6 +11085,28 @@
       "jr nz, LAB_001F_000054C4": {
         "bytes": "2008",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2008",
+        "bytes_length": 2
+      }
+    },
+    "000054BC": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "000054BF": {
+      "ldh [$0024], a": {
+        "bytes": "E024",
+        "bytes_length": 2
+      }
+    },
+    "000054C1": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
       }
     },
     "000054C4": {
@@ -8551,6 +11139,52 @@
       "jr nz, LAB_001F_000054E6": {
         "bytes": "200D",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "200D",
+        "bytes_length": 2
+      }
+    },
+    "000054D9": {
+      "ld hl, $C0D6": {
+        "bytes": "21D6C0",
+        "bytes_length": 3
+      }
+    },
+    "000054DC": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "000054DE": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000054DF": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "000054E0": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "000054E2": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "000054E3": {
+      "jp $525A": {
+        "bytes": "C35A52",
+        "bytes_length": 3
       }
     },
     "000054E6": {
@@ -8583,6 +11217,10 @@
       }
     },
     "000054ED": {
+      "jr c, LAB_001F_00005533": {
+        "bytes": "3844",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "3844",
         "bytes_length": 2
@@ -8745,6 +11383,10 @@
       }
     },
     "0000551F": {
+      "jr z, LAB_001F_00005526": {
+        "bytes": "2805",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2805",
         "bytes_length": 2
@@ -8769,6 +11411,7 @@
       }
     },
     "00005526": {
+      "label_name": "LAB_001F_00005526",
       "ld d, a": {
         "bytes": "57",
         "bytes_length": 1
@@ -8824,6 +11467,10 @@
       }
     },
     "00005536": {
+      "jr c, LAB_001F_0000554F": {
+        "bytes": "3817",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "3817",
         "bytes_length": 2
@@ -8895,7 +11542,134 @@
         "bytes_length": 3
       }
     },
+    "0000554F": {
+      "label_name": "LAB_001F_0000554F",
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "00005550": {
+      "cp $0003": {
+        "bytes": "FE03",
+        "bytes_length": 2
+      }
+    },
+    "00005552": {
+      "jr nz, LAB_001F_0000557E": {
+        "bytes": "202A",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "202A",
+        "bytes_length": 2
+      }
+    },
+    "00005554": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005555": {
+      "and $00F0": {
+        "bytes": "E6F0",
+        "bytes_length": 2
+      }
+    },
+    "00005557": {
+      "cp $00B0": {
+        "bytes": "FEB0",
+        "bytes_length": 2
+      }
+    },
+    "00005559": {
+      "jr z, LAB_001F_00005569": {
+        "bytes": "280E",
+        "bytes_length": 2
+      }
+    },
+    "00005569": {
+      "label_name": "LAB_001F_00005569",
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "0000556A": {
+      "and $000F": {
+        "bytes": "E60F",
+        "bytes_length": 2
+      }
+    },
+    "0000556C": {
+      "push af": {
+        "bytes": "F5",
+        "bytes_length": 1
+      }
+    },
+    "0000556D": {
+      "push bc": {
+        "bytes": "C5",
+        "bytes_length": 1
+      }
+    },
+    "0000556E": {
+      "call $5899": {
+        "bytes": "CD9958",
+        "bytes_length": 3
+      }
+    },
+    "00005571": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00005572": {
+      "ld a, [$C003]": {
+        "bytes": "FA03C0",
+        "bytes_length": 3
+      }
+    },
+    "00005575": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "00005576": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2004",
+        "bytes_length": 2
+      }
+    },
+    "00005578": {
+      "ld a, d": {
+        "bytes": "7A",
+        "bytes_length": 1
+      }
+    },
+    "00005579": {
+      "call $58EA": {
+        "bytes": "CDEA58",
+        "bytes_length": 3
+      }
+    },
+    "0000557C": {
+      "pop bc": {
+        "bytes": "C1",
+        "bytes_length": 1
+      }
+    },
+    "0000557D": {
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
+      }
+    },
     "0000557E": {
+      "label_name": "LAB_001F_0000557E",
       "ld a, d": {
         "bytes": "7A",
         "bytes_length": 1
@@ -8983,6 +11757,40 @@
       "jr nc, LAB_001F_0000559F": {
         "bytes": "300A",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "300A",
+        "bytes_length": 2
+      }
+    },
+    "00005595": {
+      "ld a, [$C0E8]": {
+        "bytes": "FAE8C0",
+        "bytes_length": 3
+      }
+    },
+    "00005598": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00005599": {
+      "ld a, [$C0E9]": {
+        "bytes": "FAE9C0",
+        "bytes_length": 3
+      }
+    },
+    "0000559C": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "0000559D": {
+      "jr LAB_001F_000055B2": {
+        "bytes": "1813",
+        "bytes_length": 2
       }
     },
     "0000559F": {
@@ -9005,6 +11813,10 @@
       }
     },
     "000055A5": {
+      "jr z, LAB_001F_000055B2": {
+        "bytes": "280B",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "280B",
         "bytes_length": 2
@@ -9041,6 +11853,7 @@
       }
     },
     "000055B2": {
+      "label_name": "LAB_001F_000055B2",
       "ld a, l": {
         "bytes": "7D",
         "bytes_length": 1
@@ -9173,6 +11986,10 @@
       }
     },
     "000055D8": {
+      "jr z, LAB_001F_000055DC": {
+        "bytes": "2802",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2802",
         "bytes_length": 2
@@ -9185,6 +12002,505 @@
       }
     },
     "000055DB": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "000055DC": {
+      "label_name": "LAB_001F_000055DC",
+      "pop af": {
+        "bytes": "F1",
+        "bytes_length": 1
+      }
+    },
+    "000055DD": {
+      "and $00F0": {
+        "bytes": "E6F0",
+        "bytes_length": 2
+      }
+    },
+    "000055DF": {
+      "cp $00C0": {
+        "bytes": "FEC0",
+        "bytes_length": 2
+      }
+    },
+    "000055E1": {
+      "jr nz, LAB_001F_00005613": {
+        "bytes": "2030",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2030",
+        "bytes_length": 2
+      }
+    },
+    "000055E3": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "000055E4": {
+      "cp $0004": {
+        "bytes": "FE04",
+        "bytes_length": 2
+      }
+    },
+    "000055E6": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3008",
+        "bytes_length": 2
+      }
+    },
+    "000055E8": {
+      "ld hl, $C02A": {
+        "bytes": "212AC0",
+        "bytes_length": 3
+      }
+    },
+    "000055EB": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000055EC": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "000055ED": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "000055EE": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2022",
+        "bytes_length": 2
+      }
+    },
+    "000055F0": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "000055F1": {
+      "cp $0002": {
+        "bytes": "FE02",
+        "bytes_length": 2
+      }
+    },
+    "000055F3": {
+      "jr z, LAB_001F_000055F9": {
+        "bytes": "2804",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2804",
+        "bytes_length": 2
+      }
+    },
+    "000055F5": {
+      "cp $0006": {
+        "bytes": "FE06",
+        "bytes_length": 2
+      }
+    },
+    "000055F7": {
+      "jr nz, LAB_001F_00005606": {
+        "bytes": "200D",
+        "bytes_length": 2
+      }
+    },
+    "000055F9": {
+      "label_name": "LAB_001F_000055F9",
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "000055FB": {
+      "ld hl, $5B93": {
+        "bytes": "21935B",
+        "bytes_length": 3
+      }
+    },
+    "000055FE": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "000055FF": {
+      "ldh a, [$0025]": {
+        "bytes": "F025",
+        "bytes_length": 2
+      }
+    },
+    "00005601": {
+      "and [hl]": {
+        "bytes": "A6",
+        "bytes_length": 1
+      }
+    },
+    "00005602": {
+      "ldh [$0025], a": {
+        "bytes": "E025",
+        "bytes_length": 2
+      }
+    },
+    "00005604": {
+      "jr LAB_001F_00005612": {
+        "bytes": "180C",
+        "bytes_length": 2
+      }
+    },
+    "00005606": {
+      "label_name": "LAB_001F_00005606",
+      "ld b, $0002": {
+        "bytes": "0602",
+        "bytes_length": 2
+      }
+    },
+    "00005608": {
+      "call $58AC": {
+        "bytes": "CDAC58",
+        "bytes_length": 3
+      }
+    },
+    "0000560B": {
+      "ld a, $0008": {
+        "bytes": "3E08",
+        "bytes_length": 2
+      }
+    },
+    "0000560D": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "0000560E": {
+      "inc hl": {
+        "bytes": "23",
+        "bytes_length": 1
+      }
+    },
+    "0000560F": {
+      "ld a, $0080": {
+        "bytes": "3E80",
+        "bytes_length": 2
+      }
+    },
+    "00005611": {
+      "ld [hl], a": {
+        "bytes": "77",
+        "bytes_length": 1
+      }
+    },
+    "00005612": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      },
+      "label_name": "LAB_001F_00005612"
+    },
+    "00005613": {
+      "label_name": "LAB_001F_00005613",
+      "swap a": {
+        "bytes": "CB37",
+        "bytes_length": 2
+      }
+    },
+    "00005615": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "00005617": {
+      "ld hl, $C0D6": {
+        "bytes": "21D6C0",
+        "bytes_length": 3
+      }
+    },
+    "0000561A": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "0000561B": {
+      "ld b, [hl]": {
+        "bytes": "46",
+        "bytes_length": 1
+      }
+    },
+    "0000561C": {
+      "call $58CC": {
+        "bytes": "CDCC58",
+        "bytes_length": 3
+      }
+    },
+    "0000561F": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "00005621": {
+      "ld hl, $C02E": {
+        "bytes": "212EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005624": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005625": {
+      "bit 4, [hl]": {
+        "bytes": "CB66",
+        "bytes_length": 2
+      }
+    },
+    "00005627": {
+      "jr z, LAB_001F_0000562C": {
+        "bytes": "2803",
+        "bytes_length": 2
+      }
+    },
+    "0000562C": {
+      "label_name": "LAB_001F_0000562C",
+      "push de": {
+        "bytes": "D5",
+        "bytes_length": 1
+      }
+    },
+    "0000562D": {
+      "ld a, c": {
+        "bytes": "79",
+        "bytes_length": 1
+      }
+    },
+    "0000562E": {
+      "cp $0004": {
+        "bytes": "FE04",
+        "bytes_length": 2
+      }
+    },
+    "00005630": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "300F",
+        "bytes_length": 2
+      }
+    },
+    "00005632": {
+      "ld hl, $C02A": {
+        "bytes": "212AC0",
+        "bytes_length": 3
+      }
+    },
+    "00005635": {
+      "ld d, $0000": {
+        "bytes": "1600",
+        "bytes_length": 2
+      }
+    },
+    "00005637": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "00005638": {
+      "add hl, de": {
+        "bytes": "19",
+        "bytes_length": 1
+      }
+    },
+    "00005639": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "0000563A": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "0000563B": {
+      "jr nz, LAB_001F_0000563F": {
+        "bytes": "2002",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2002",
+        "bytes_length": 2
+      }
+    },
+    "0000563D": {
+      "jr LAB_001F_00005641": {
+        "bytes": "1802",
+        "bytes_length": 2
+      }
+    },
+    "0000563F": {
+      "label_name": "LAB_001F_0000563F",
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
+      }
+    },
+    "00005640": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
+    "00005641": {
+      "label_name": "LAB_001F_00005641",
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "00005643": {
+      "ld hl, $C0DE": {
+        "bytes": "21DEC0",
+        "bytes_length": 3
+      }
+    },
+    "00005646": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005647": {
+      "ld d, [hl]": {
+        "bytes": "56",
+        "bytes_length": 1
+      }
+    },
+    "00005648": {
+      "ld b, $0002": {
+        "bytes": "0602",
+        "bytes_length": 2
+      }
+    },
+    "0000564A": {
+      "call $58AC": {
+        "bytes": "CDAC58",
+        "bytes_length": 3
+      }
+    },
+    "0000564D": {
+      "ld [hl], d": {
+        "bytes": "72",
+        "bytes_length": 1
+      }
+    },
+    "0000564E": {
+      "call $569D": {
+        "bytes": "CD9D56",
+        "bytes_length": 3
+      }
+    },
+    "00005651": {
+      "call $566C": {
+        "bytes": "CD6C56",
+        "bytes_length": 3
+      }
+    },
+    "00005654": {
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
+      }
+    },
+    "00005655": {
+      "ld b, $0000": {
+        "bytes": "0600",
+        "bytes_length": 2
+      }
+    },
+    "00005657": {
+      "ld hl, $C02E": {
+        "bytes": "212EC0",
+        "bytes_length": 3
+      }
+    },
+    "0000565A": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "0000565B": {
+      "bit 0, [hl]": {
+        "bytes": "CB46",
+        "bytes_length": 2
+      }
+    },
+    "0000565D": {
+      "jr z, LAB_001F_00005663": {
+        "bytes": "2804",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2804",
+        "bytes_length": 2
+      }
+    },
+    "0000565F": {
+      "inc e": {
+        "bytes": "1C",
+        "bytes_length": 1
+      }
+    },
+    "00005660": {
+      "jr nc, LAB_001F_00005663": {
+        "bytes": "3001",
+        "bytes_length": 2
+      }
+    },
+    "00005663": {
+      "label_name": "LAB_001F_00005663",
+      "ld hl, $C066": {
+        "bytes": "2166C0",
+        "bytes_length": 3
+      }
+    },
+    "00005666": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005667": {
+      "ld [hl], e": {
+        "bytes": "73",
+        "bytes_length": 1
+      }
+    },
+    "00005668": {
+      "call $56BF": {
+        "bytes": "CDBF56",
+        "bytes_length": 3
+      }
+    },
+    "0000566B": {
       "RET": {
         "bytes": "C9",
         "bytes_length": 1
@@ -9239,6 +12555,10 @@
       }
     },
     "00005679": {
+      "jr z, LAB_001F_00005687": {
+        "bytes": "280C",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "280C",
         "bytes_length": 2
@@ -9254,6 +12574,107 @@
       "jr nc, LAB_001F_00005699": {
         "bytes": "301A",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "301A",
+        "bytes_length": 2
+      }
+    },
+    "0000567F": {
+      "ld hl, $C02A": {
+        "bytes": "212AC0",
+        "bytes_length": 3
+      }
+    },
+    "00005682": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005683": {
+      "ld a, [hl]": {
+        "bytes": "7E",
+        "bytes_length": 1
+      }
+    },
+    "00005684": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "00005685": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2012",
+        "bytes_length": 2
+      }
+    },
+    "00005687": {
+      "label_name": "LAB_001F_00005687",
+      "ld a, [$C004]": {
+        "bytes": "FA04C0",
+        "bytes_length": 3
+      }
+    },
+    "0000568A": {
+      "ld hl, $5B9B": {
+        "bytes": "219B5B",
+        "bytes_length": 3
+      }
+    },
+    "0000568D": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "0000568E": {
+      "and [hl]": {
+        "bytes": "A6",
+        "bytes_length": 1
+      }
+    },
+    "0000568F": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "00005690": {
+      "ldh a, [$0025]": {
+        "bytes": "F025",
+        "bytes_length": 2
+      }
+    },
+    "00005692": {
+      "ld hl, $5B93": {
+        "bytes": "21935B",
+        "bytes_length": 3
+      }
+    },
+    "00005695": {
+      "add hl, bc": {
+        "bytes": "09",
+        "bytes_length": 1
+      }
+    },
+    "00005696": {
+      "and [hl]": {
+        "bytes": "A6",
+        "bytes_length": 1
+      }
+    },
+    "00005697": {
+      "or d": {
+        "bytes": "B2",
+        "bytes_length": 1
+      }
+    },
+    "00005698": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
       }
     },
     "00005699": {
@@ -9312,6 +12733,10 @@
       }
     },
     "000056A7": {
+      "jr z, LAB_001F_000056B8": {
+        "bytes": "280F",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "280F",
         "bytes_length": 2
@@ -9378,6 +12803,7 @@
       }
     },
     "000056B8": {
+      "label_name": "LAB_001F_000056B8",
       "ld b, $0001": {
         "bytes": "0601",
         "bytes_length": 2
@@ -9414,6 +12840,10 @@
       }
     },
     "000056C2": {
+      "jr z, LAB_001F_000056C8": {
+        "bytes": "2804",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2804",
         "bytes_length": 2
@@ -9429,6 +12859,175 @@
       "jr nz, LAB_001F_000056F5": {
         "bytes": "202D",
         "bytes_length": 2
+      }
+    },
+    "000056C8": {
+      "label_name": "LAB_001F_000056C8",
+      "push de": {
+        "bytes": "D5",
+        "bytes_length": 1
+      }
+    },
+    "000056C9": {
+      "ld de, $C0E6": {
+        "bytes": "11E6C0",
+        "bytes_length": 3
+      }
+    },
+    "000056CC": {
+      "cp $0002": {
+        "bytes": "FE02",
+        "bytes_length": 2
+      }
+    },
+    "000056CE": {
+      "jr z, LAB_001F_000056D3": {
+        "bytes": "2803",
+        "bytes_length": 2
+      }
+    },
+    "000056D3": {
+      "label_name": "LAB_001F_000056D3",
+      "ld a, [de]": {
+        "bytes": "1A",
+        "bytes_length": 1
+      }
+    },
+    "000056D4": {
+      "add a": {
+        "bytes": "87",
+        "bytes_length": 1
+      }
+    },
+    "000056D5": {
+      "ld d, $0000": {
+        "bytes": "1600",
+        "bytes_length": 2
+      }
+    },
+    "000056D7": {
+      "ld e, a": {
+        "bytes": "5F",
+        "bytes_length": 1
+      }
+    },
+    "000056D8": {
+      "ld hl, $4361": {
+        "bytes": "216143",
+        "bytes_length": 3
+      }
+    },
+    "000056DB": {
+      "add hl, de": {
+        "bytes": "19",
+        "bytes_length": 1
+      }
+    },
+    "000056DC": {
+      "ld e, [hl]": {
+        "bytes": "5E",
+        "bytes_length": 1
+      }
+    },
+    "000056DD": {
+      "inc hl": {
+        "bytes": "23",
+        "bytes_length": 1
+      }
+    },
+    "000056DE": {
+      "ld d, [hl]": {
+        "bytes": "56",
+        "bytes_length": 1
+      }
+    },
+    "000056DF": {
+      "ld hl, $FF30": {
+        "bytes": "2130FF",
+        "bytes_length": 3
+      }
+    },
+    "000056E2": {
+      "ld b, $000F": {
+        "bytes": "060F",
+        "bytes_length": 2
+      }
+    },
+    "000056E4": {
+      "ld a, $0000": {
+        "bytes": "3E00",
+        "bytes_length": 2
+      }
+    },
+    "000056E6": {
+      "ldh [$001A], a": {
+        "bytes": "E01A",
+        "bytes_length": 2
+      }
+    },
+    "000056E8": {
+      "label_name": "LAB_001F_000056E8",
+      "ld a, [de]": {
+        "bytes": "1A",
+        "bytes_length": 1
+      }
+    },
+    "000056E9": {
+      "inc de": {
+        "bytes": "13",
+        "bytes_length": 1
+      }
+    },
+    "000056EA": {
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "000056EB": {
+      "ld a, b": {
+        "bytes": "78",
+        "bytes_length": 1
+      }
+    },
+    "000056EC": {
+      "dec b": {
+        "bytes": "05",
+        "bytes_length": 1
+      }
+    },
+    "000056ED": {
+      "and a": {
+        "bytes": "A7",
+        "bytes_length": 1
+      }
+    },
+    "000056EE": {
+      "jr nz, LAB_001F_000056E8": {
+        "bytes": "20F8",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20F8",
+        "bytes_length": 2
+      }
+    },
+    "000056F0": {
+      "ld a, $0080": {
+        "bytes": "3E80",
+        "bytes_length": 2
+      }
+    },
+    "000056F2": {
+      "ldh [$001A], a": {
+        "bytes": "E01A",
+        "bytes_length": 2
+      }
+    },
+    "000056F4": {
+      "pop de": {
+        "bytes": "D1",
+        "bytes_length": 1
       }
     },
     "000056F5": {
@@ -9576,6 +13175,16 @@
       "jr nc, LAB_001F_00005762": {
         "bytes": "3002",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3002",
+        "bytes_length": 2
+      }
+    },
+    "00005760": {
+      "jr LAB_001F_00005768": {
+        "bytes": "1806",
+        "bytes_length": 2
       }
     },
     "00005762": {
@@ -9598,6 +13207,7 @@
       }
     },
     "00005768": {
+      "label_name": "LAB_001F_00005768",
       "scf": {
         "bytes": "37",
         "bytes_length": 1
@@ -9939,6 +13549,138 @@
       },
       "label_name": "LAB_001F_000058CB"
     },
+    "000058CC": {
+      "ld h, $0000": {
+        "bytes": "2600",
+        "bytes_length": 2
+      }
+    },
+    "000058CE": {
+      "ld l, a": {
+        "bytes": "6F",
+        "bytes_length": 1
+      }
+    },
+    "000058CF": {
+      "add hl, hl": {
+        "bytes": "29",
+        "bytes_length": 1
+      }
+    },
+    "000058D0": {
+      "ld d, h": {
+        "bytes": "54",
+        "bytes_length": 1
+      }
+    },
+    "000058D1": {
+      "ld e, l": {
+        "bytes": "5D",
+        "bytes_length": 1
+      }
+    },
+    "000058D2": {
+      "ld hl, $5BA3": {
+        "bytes": "21A35B",
+        "bytes_length": 3
+      }
+    },
+    "000058D5": {
+      "add hl, de": {
+        "bytes": "19",
+        "bytes_length": 1
+      }
+    },
+    "000058D6": {
+      "ld e, [hl]": {
+        "bytes": "5E",
+        "bytes_length": 1
+      }
+    },
+    "000058D7": {
+      "inc hl": {
+        "bytes": "23",
+        "bytes_length": 1
+      }
+    },
+    "000058D8": {
+      "ld d, [hl]": {
+        "bytes": "56",
+        "bytes_length": 1
+      }
+    },
+    "000058D9": {
+      "ld a, b": {
+        "bytes": "78",
+        "bytes_length": 1
+      }
+    },
+    "000058DA": {
+      "cp $0007": {
+        "bytes": "FE07",
+        "bytes_length": 2
+      },
+      "label_name": "LAB_001F_000058DA"
+    },
+    "000058DC": {
+      "jr z, LAB_001F_000058E5": {
+        "bytes": "2807",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2807",
+        "bytes_length": 2
+      }
+    },
+    "000058DE": {
+      "sra d": {
+        "bytes": "CB2A",
+        "bytes_length": 2
+      }
+    },
+    "000058E0": {
+      "rr e": {
+        "bytes": "CB1B",
+        "bytes_length": 2
+      }
+    },
+    "000058E2": {
+      "inc a": {
+        "bytes": "3C",
+        "bytes_length": 1
+      }
+    },
+    "000058E3": {
+      "jr LAB_001F_000058DA": {
+        "bytes": "18F5",
+        "bytes_length": 2
+      }
+    },
+    "000058E5": {
+      "label_name": "LAB_001F_000058E5",
+      "ld a, $0008": {
+        "bytes": "3E08",
+        "bytes_length": 2
+      }
+    },
+    "000058E7": {
+      "add d": {
+        "bytes": "82",
+        "bytes_length": 1
+      }
+    },
+    "000058E8": {
+      "ld d, a": {
+        "bytes": "57",
+        "bytes_length": 1
+      }
+    },
+    "000058E9": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
+      }
+    },
     "000058EA": {
       "ld [$C001], a": {
         "bytes": "EA01C0",
@@ -9966,6 +13708,464 @@
     "000058F4": {
       "jp z, $59C2": {
         "bytes": "CAC259",
+        "bytes_length": 3
+      },
+      "z_UNTAKEN_LONG_JUMP": {
+        "bytes": "0000CA",
+        "bytes_length": 3
+      }
+    },
+    "000058F7": {
+      "jp c, $59C2": {
+        "bytes": "DAC259",
+        "bytes_length": 3
+      },
+      "z_UNTAKEN_LONG_JUMP": {
+        "bytes": "0000DA",
+        "bytes_length": 3
+      }
+    },
+    "000058FA": {
+      "cp $00FE": {
+        "bytes": "FEFE",
+        "bytes_length": 2
+      }
+    },
+    "000058FC": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "2803",
+        "bytes_length": 2
+      }
+    },
+    "000058FE": {
+      "z_UNTAKEN_LONG_JUMP": {
+        "bytes": "0000D2",
+        "bytes_length": 3
+      }
+    },
+    "00005901": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "00005902": {
+      "ld [$C000], a": {
+        "bytes": "EA00C0",
+        "bytes_length": 3
+      }
+    },
+    "00005905": {
+      "ld [$C003], a": {
+        "bytes": "EA03C0",
+        "bytes_length": 3
+      }
+    },
+    "00005908": {
+      "ld [$C0E9], a": {
+        "bytes": "EAE9C0",
+        "bytes_length": 3
+      }
+    },
+    "0000590B": {
+      "ld [$C0E6], a": {
+        "bytes": "EAE6C0",
+        "bytes_length": 3
+      }
+    },
+    "0000590E": {
+      "ld [$C0E7], a": {
+        "bytes": "EAE7C0",
+        "bytes_length": 3
+      }
+    },
+    "00005911": {
+      "ld d, $0008": {
+        "bytes": "1608",
+        "bytes_length": 2
+      }
+    },
+    "00005913": {
+      "ld hl, $C016": {
+        "bytes": "2116C0",
+        "bytes_length": 3
+      }
+    },
+    "00005916": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005919": {
+      "ld hl, $C006": {
+        "bytes": "2106C0",
+        "bytes_length": 3
+      }
+    },
+    "0000591C": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000591F": {
+      "ld d, $0004": {
+        "bytes": "1604",
+        "bytes_length": 2
+      }
+    },
+    "00005921": {
+      "ld hl, $C026": {
+        "bytes": "2126C0",
+        "bytes_length": 3
+      }
+    },
+    "00005924": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005927": {
+      "ld hl, $C02E": {
+        "bytes": "212EC0",
+        "bytes_length": 3
+      }
+    },
+    "0000592A": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000592D": {
+      "ld hl, $C03E": {
+        "bytes": "213EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005930": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005933": {
+      "ld hl, $C046": {
+        "bytes": "2146C0",
+        "bytes_length": 3
+      }
+    },
+    "00005936": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005939": {
+      "ld hl, $C04E": {
+        "bytes": "214EC0",
+        "bytes_length": 3
+      }
+    },
+    "0000593C": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000593F": {
+      "ld hl, $C056": {
+        "bytes": "2156C0",
+        "bytes_length": 3
+      }
+    },
+    "00005942": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005945": {
+      "ld hl, $C05E": {
+        "bytes": "215EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005948": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000594B": {
+      "ld hl, $C066": {
+        "bytes": "2166C0",
+        "bytes_length": 3
+      }
+    },
+    "0000594E": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005951": {
+      "ld hl, $C06E": {
+        "bytes": "216EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005954": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005957": {
+      "ld hl, $C036": {
+        "bytes": "2136C0",
+        "bytes_length": 3
+      }
+    },
+    "0000595A": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000595D": {
+      "ld hl, $C076": {
+        "bytes": "2176C0",
+        "bytes_length": 3
+      }
+    },
+    "00005960": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005963": {
+      "ld hl, $C07E": {
+        "bytes": "217EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005966": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005969": {
+      "ld hl, $C086": {
+        "bytes": "2186C0",
+        "bytes_length": 3
+      }
+    },
+    "0000596C": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000596F": {
+      "ld hl, $C08E": {
+        "bytes": "218EC0",
+        "bytes_length": 3
+      }
+    },
+    "00005972": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005975": {
+      "ld hl, $C096": {
+        "bytes": "2196C0",
+        "bytes_length": 3
+      }
+    },
+    "00005978": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000597B": {
+      "ld hl, $C09E": {
+        "bytes": "219EC0",
+        "bytes_length": 3
+      }
+    },
+    "0000597E": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005981": {
+      "ld hl, $C0A6": {
+        "bytes": "21A6C0",
+        "bytes_length": 3
+      }
+    },
+    "00005984": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005987": {
+      "ld hl, $C0AE": {
+        "bytes": "21AEC0",
+        "bytes_length": 3
+      }
+    },
+    "0000598A": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000598D": {
+      "ld a, $0001": {
+        "bytes": "3E01",
+        "bytes_length": 2
+      }
+    },
+    "0000598F": {
+      "ld hl, $C0BE": {
+        "bytes": "21BEC0",
+        "bytes_length": 3
+      }
+    },
+    "00005992": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "00005995": {
+      "ld hl, $C0B6": {
+        "bytes": "21B6C0",
+        "bytes_length": 3
+      }
+    },
+    "00005998": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "0000599B": {
+      "ld hl, $C0C6": {
+        "bytes": "21C6C0",
+        "bytes_length": 3
+      }
+    },
+    "0000599E": {
+      "call $5AFD": {
+        "bytes": "CDFD5A",
+        "bytes_length": 3
+      }
+    },
+    "000059A1": {
+      "ld [$C0E8], a": {
+        "bytes": "EAE8C0",
+        "bytes_length": 3
+      }
+    },
+    "000059A4": {
+      "ld a, $00FF": {
+        "bytes": "3EFF",
+        "bytes_length": 2
+      }
+    },
+    "000059A6": {
+      "ld [$C004], a": {
+        "bytes": "EA04C0",
+        "bytes_length": 3
+      }
+    },
+    "000059A9": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "000059AA": {
+      "ldh [$0024], a": {
+        "bytes": "E024",
+        "bytes_length": 2
+      }
+    },
+    "000059AC": {
+      "ld a, $0008": {
+        "bytes": "3E08",
+        "bytes_length": 2
+      }
+    },
+    "000059AE": {
+      "ldh [$0010], a": {
+        "bytes": "E010",
+        "bytes_length": 2
+      }
+    },
+    "000059B0": {
+      "ld a, $0000": {
+        "bytes": "3E00",
+        "bytes_length": 2
+      }
+    },
+    "000059B2": {
+      "ldh [$0025], a": {
+        "bytes": "E025",
+        "bytes_length": 2
+      }
+    },
+    "000059B4": {
+      "xor a": {
+        "bytes": "AF",
+        "bytes_length": 1
+      }
+    },
+    "000059B5": {
+      "ldh [$001A], a": {
+        "bytes": "E01A",
+        "bytes_length": 2
+      }
+    },
+    "000059B7": {
+      "ld a, $0080": {
+        "bytes": "3E80",
+        "bytes_length": 2
+      }
+    },
+    "000059B9": {
+      "ldh [$001A], a": {
+        "bytes": "E01A",
+        "bytes_length": 2
+      }
+    },
+    "000059BB": {
+      "ld a, $0077": {
+        "bytes": "3E77",
+        "bytes_length": 2
+      }
+    },
+    "000059BD": {
+      "ldh [$0024], a": {
+        "bytes": "E024",
+        "bytes_length": 2
+      }
+    },
+    "000059BF": {
+      "jp $5B03": {
+        "bytes": "C3035B",
         "bytes_length": 3
       }
     },
@@ -10195,6 +14395,52 @@
       "jr z, LAB_001F_00005A17": {
         "bytes": "281D",
         "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "281D",
+        "bytes_length": 2
+      }
+    },
+    "000059FA": {
+      "ld a, e": {
+        "bytes": "7B",
+        "bytes_length": 1
+      }
+    },
+    "000059FB": {
+      "cp $0007": {
+        "bytes": "FE07",
+        "bytes_length": 2
+      }
+    },
+    "000059FD": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "200F",
+        "bytes_length": 2
+      }
+    },
+    "000059FF": {
+      "ld a, [$C001]": {
+        "bytes": "FA01C0",
+        "bytes_length": 3
+      }
+    },
+    "00005A02": {
+      "cp $0014": {
+        "bytes": "FE14",
+        "bytes_length": 2
+      }
+    },
+    "00005A04": {
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3001",
+        "bytes_length": 2
+      }
+    },
+    "00005A06": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
       }
     },
     "00005A17": {
@@ -10691,6 +14937,10 @@
       }
     },
     "00005A99": {
+      "jr nz, LAB_001F_00005A9F": {
+        "bytes": "2004",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "2004",
         "bytes_length": 2
@@ -10709,6 +14959,7 @@
       }
     },
     "00005A9F": {
+      "label_name": "LAB_001F_00005A9F",
       "ld a, c": {
         "bytes": "79",
         "bytes_length": 1
@@ -10724,6 +14975,41 @@
       "jp z, $5B03": {
         "bytes": "CA035B",
         "bytes_length": 3
+      }
+    },
+    "00005AFD": {
+      "ld b, d": {
+        "bytes": "42",
+        "bytes_length": 1
+      }
+    },
+    "00005AFE": {
+      "label_name": "LAB_001F_00005AFE",
+      "ld [hli], a": {
+        "bytes": "22",
+        "bytes_length": 1
+      }
+    },
+    "00005AFF": {
+      "dec b": {
+        "bytes": "05",
+        "bytes_length": 1
+      }
+    },
+    "00005B00": {
+      "jr nz, LAB_001F_00005AFE": {
+        "bytes": "20FC",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "20FC",
+        "bytes_length": 2
+      }
+    },
+    "00005B02": {
+      "RET": {
+        "bytes": "C9",
+        "bytes_length": 1
       }
     },
     "00005B03": {
@@ -10979,6 +15265,10 @@
       }
     },
     "00005B3E": {
+      "jr c, LAB_001F_00005B46": {
+        "bytes": "3806",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "3806",
         "bytes_length": 2
@@ -11003,6 +15293,7 @@
       }
     },
     "00005B46": {
+      "label_name": "LAB_001F_00005B46",
       "pop bc": {
         "bytes": "C1",
         "bytes_length": 1
@@ -11087,6 +15378,10 @@
       }
     },
     "00005B54": {
+      "jr nz, LAB_001F_00005B25": {
+        "bytes": "20CF",
+        "bytes_length": 2
+      },
       "z_UNTAKEN_JUMP_2": {
         "bytes": "20CF",
         "bytes_length": 2
@@ -11107,6 +15402,16 @@
     "00005B5B": {
       "jr nc, LAB_001F_00005B5F": {
         "bytes": "3002",
+        "bytes_length": 2
+      },
+      "z_UNTAKEN_JUMP_2": {
+        "bytes": "3002",
+        "bytes_length": 2
+      }
+    },
+    "00005B5D": {
+      "jr LAB_001F_00005B89": {
+        "bytes": "182A",
         "bytes_length": 2
       }
     },

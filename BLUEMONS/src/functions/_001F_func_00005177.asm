@@ -10,13 +10,10 @@ LAB_001F_00005179:
 	jr z, LAB_001F_000051A5 ;z_UNTAKEN_JUMP_2 ;00005181
 	ld a, c ;00005183
 	cp $0004 ;00005184
-	jr nc, LAB_001F_000051A2 ;00005186
-	nop ; not executed offset: 00005188
-	nop ; not executed offset: 00005189
-	nop ; not executed offset: 0000518A
-	nop ; not executed offset: 0000518B
-	nop ; not executed offset: 0000518C
-	nop ; not executed offset: 0000518D
+	jr nc, LAB_001F_000051A2 ;z_UNTAKEN_JUMP_2 ;00005186
+	ld a, [$C002] ;00005188
+	and a ;0000518B
+	jr z, LAB_001F_000051A2 ;0000518C
 	nop ; not executed offset: 0000518E
 	nop ; not executed offset: 0000518F
 	nop ; not executed offset: 00005190

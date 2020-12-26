@@ -24,38 +24,18 @@ SECTION "_0010_func_0000588A",ROMX[$0000588A],BANK[$0010]
 	ld b, $001C ;000058BF
 	ld hl, $4044 ;000058C1
 	call $35EA ;000058C4
-	nop ; not executed offset: 000058C7
-	nop ; not executed offset: 000058C8
-	nop ; not executed offset: 000058C9
-	nop ; not executed offset: 000058CA
-	nop ; not executed offset: 000058CB
-	nop ; not executed offset: 000058CC
-	nop ; not executed offset: 000058CD
-	nop ; not executed offset: 000058CE
-	nop ; not executed offset: 000058CF
-	nop ; not executed offset: 000058D0
-	nop ; not executed offset: 000058D1
-	nop ; not executed offset: 000058D2
-	nop ; not executed offset: 000058D3
-	nop ; not executed offset: 000058D4
-	nop ; not executed offset: 000058D5
-	nop ; not executed offset: 000058D6
-	nop ; not executed offset: 000058D7
-	nop ; not executed offset: 000058D8
-	nop ; not executed offset: 000058D9
-	nop ; not executed offset: 000058DA
-	nop ; not executed offset: 000058DB
-	nop ; not executed offset: 000058DC
-	nop ; not executed offset: 000058DD
-	nop ; not executed offset: 000058DE
-	nop ; not executed offset: 000058DF
-	nop ; not executed offset: 000058E0
-	nop ; not executed offset: 000058E1
-	nop ; not executed offset: 000058E2
-	nop ; not executed offset: 000058E3
-	nop ; not executed offset: 000058E4
-	nop ; not executed offset: 000058E5
-	nop ; not executed offset: 000058E6
-	nop ; not executed offset: 000058E7
-	nop ; not executed offset: 000058E8
+	push af ;000058C7
+	pop af ;000058C8
+	z_UNTAKEN_JUMP_2 ;000058C9
+	ld c, $0028 ;000058CB
+	call $374D ;000058CD
+	ld a, $001F ;000058D0
+	ld [$C0EF], a ;000058D2
+	ld [$C0F0], a ;000058D5
+	ld a, $00DC ;000058D8
+	ld [$C0EE], a ;000058DA
+	call $23B1 ;000058DD
+	call $57F8 ;000058E0
+	call $0082 ;000058E3
+	jp $3DEB ;000058E6
 ;stopped writing due to overlap with another section

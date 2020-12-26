@@ -6,20 +6,12 @@ SECTION "_0000_func_000023B1",ROM0[$000023B1]
 	ld b, a ;000023B4
 	ld a, [$C0EE] ;000023B5
 	and a ;000023B8
-	jr z, LAB_0000_000023C8 ;000023B9
-	nop ; not executed offset: 000023BB
-	nop ; not executed offset: 000023BC
-	nop ; not executed offset: 000023BD
-	nop ; not executed offset: 000023BE
-	nop ; not executed offset: 000023BF
-	nop ; not executed offset: 000023C0
-	nop ; not executed offset: 000023C1
-	nop ; not executed offset: 000023C2
-	nop ; not executed offset: 000023C3
-	nop ; not executed offset: 000023C4
-	nop ; not executed offset: 000023C5
-	nop ; not executed offset: 000023C6
-	nop ; not executed offset: 000023C7
+	jr z, LAB_0000_000023C8 ;z_UNTAKEN_JUMP_2 ;000023B9
+	xor a ;000023BB
+	ld [$C02A], a ;000023BC
+	ld [$C02B], a ;000023BF
+	ld [$C02C], a ;000023C2
+	ld [$C02D], a ;000023C5
 LAB_0000_000023C8:
 	ld a, [$CFC7] ;000023C8
 	and a ;000023CB

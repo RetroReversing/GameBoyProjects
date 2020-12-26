@@ -205,7 +205,7 @@
       "func_stack": 4,
       "function_bytes": "",
       "isRenamed": false,
-      "return_offset_from_start": 24,
+      "return_offset_from_start": 26,
       "stack_trace": ""
     }
   ],
@@ -483,6 +483,27 @@
     }
   ],
   [
+    8408,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E810x20d8->": 967
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 8408,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000020D8",
+      "func_offset": "000020D8",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 22,
+      "stack_trace": ""
+    }
+  ],
+  [
     9137,
     {
       "additional": {
@@ -714,6 +735,27 @@
     }
   ],
   [
+    16040,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D->_0010_func_0000583F0x3ea8->": 709
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 16040,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00003EA8",
+      "func_offset": "00003EA8",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 24,
+      "stack_trace": ""
+    }
+  ],
+  [
     16384,
     {
       "additional": {
@@ -898,7 +940,7 @@
       "func_stack": 8,
       "function_bytes": "",
       "isRenamed": false,
-      "return_offset_from_start": 728,
+      "return_offset_from_start": 1041,
       "stack_trace": ""
     }
   ],
@@ -961,7 +1003,7 @@
       "func_stack": 9,
       "function_bytes": "",
       "isRenamed": false,
-      "return_offset_from_start": 33,
+      "return_offset_from_start": 125,
       "stack_trace": ""
     }
   ],
@@ -1050,6 +1092,69 @@
     }
   ],
   [
+    22419,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D0x5793->": 789
+        }
+      },
+      "bank_number": "0010",
+      "bank_offset": 22419,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0010_func_00005793",
+      "func_offset": "00041793",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 3,
+      "stack_trace": ""
+    }
+  ],
+  [
+    22446,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D->_0010_func_0000580E0x57ae->": 709
+        }
+      },
+      "bank_number": "0010",
+      "bank_offset": 22446,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0010_func_000057AE",
+      "func_offset": "000417AE",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 24,
+      "stack_trace": ""
+    }
+  ],
+  [
+    22471,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D0x57c7->": 709
+        }
+      },
+      "bank_number": "0010",
+      "bank_offset": 22471,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0010_func_000057C7",
+      "func_offset": "000417C7",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 40,
+      "stack_trace": ""
+    }
+  ],
+  [
     22512,
     {
       "additional": {
@@ -1071,6 +1176,27 @@
     }
   ],
   [
+    22520,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_0010_func_0000588A0x57f8->": 706
+        }
+      },
+      "bank_number": "0010",
+      "bank_offset": 22520,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0010_func_000057F8",
+      "func_offset": "000417F8",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
     22535,
     {
       "additional": {
@@ -1088,6 +1214,69 @@
       "function_bytes": "",
       "isRenamed": false,
       "return_offset_from_start": 6,
+      "stack_trace": ""
+    }
+  ],
+  [
+    22542,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D0x580e->": 709
+        }
+      },
+      "bank_number": "0010",
+      "bank_offset": 22542,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0010_func_0000580E",
+      "func_offset": "0004180E",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 48,
+      "stack_trace": ""
+    }
+  ],
+  [
+    22591,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D0x583f->": 709
+        }
+      },
+      "bank_number": "0010",
+      "bank_offset": 22591,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0010_func_0000583F",
+      "func_offset": "0004183F",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294960744,
+      "stack_trace": ""
+    }
+  ],
+  [
+    22594,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D->_0010_func_0000583F0x5842->": 709
+        }
+      },
+      "bank_number": "001E",
+      "bank_offset": 22594,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_001E_func_00005842",
+      "func_offset": "00079842",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 24,
       "stack_trace": ""
     }
   ],
@@ -1171,7 +1360,7 @@
       "func_stack": 2,
       "function_bytes": "",
       "isRenamed": false,
-      "return_offset_from_start": 0,
+      "return_offset_from_start": 4294958793,
       "stack_trace": ""
     }
   ],
@@ -1239,6 +1428,27 @@
     }
   ],
   [
+    22732,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_001F_func_0000569D->_0010_func_0000580E->_0000_func_000012F8->_0000_func_000020AF->_001F_func_00005177->_001F_func_000051AC->_001F_func_0000525A0x58cc->": 743
+        }
+      },
+      "bank_number": "001F",
+      "bank_offset": 22732,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_001F_func_000058CC",
+      "func_offset": "0007D8CC",
+      "func_stack": 9,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 29,
+      "stack_trace": ""
+    }
+  ],
+  [
     22761,
     {
       "additional": {
@@ -1295,6 +1505,27 @@
       "func_name": "_0002_func_00005A89",
       "func_offset": "00009A89",
       "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 5,
+      "stack_trace": ""
+    }
+  ],
+  [
+    23293,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00003E81->_0010_func_0000588A->_0000_func_000023B1->_001F_func_000058EA0x5afd->": 706
+        }
+      },
+      "bank_number": "001F",
+      "bank_offset": 23293,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_001F_func_00005AFD",
+      "func_offset": "0007DAFD",
+      "func_stack": 5,
       "function_bytes": "",
       "isRenamed": false,
       "return_offset_from_start": 5,
