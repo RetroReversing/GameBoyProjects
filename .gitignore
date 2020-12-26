@@ -1,3 +1,7 @@
+**/playthroughs/*
+trace_log.txt
+.DS_Store
+
 # Prerequisites
 *.d
 

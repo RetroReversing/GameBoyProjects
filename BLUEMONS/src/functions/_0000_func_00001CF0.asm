@@ -1,0 +1,16 @@
+SECTION "_0000_func_00001CF0",ROM0[$00001CF0]
+
+	ld a, $007F ;00001CF0
+	jr LAB_0000_00001CF5 ;00001CF2
+	nop ; not executed offset: 00001CF4
+LAB_0000_00001CF5:
+	ld de, $0400 ;00001CF5
+	ld l, e ;00001CF8
+LAB_0000_00001CF9:
+	ld [hli], a ;00001CF9
+	dec e ;00001CFA
+	jr nz, LAB_0000_00001CF9 ;z_UNTAKEN_JUMP_2 ;00001CFB
+	dec d ;00001CFD
+	jr nz, LAB_0000_00001CF9 ;z_UNTAKEN_JUMP_2 ;00001CFE
+	RET ;00001D00
+;stopped writing due to overlap with another section
