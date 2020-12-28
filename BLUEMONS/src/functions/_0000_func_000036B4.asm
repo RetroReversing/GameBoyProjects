@@ -2,7 +2,7 @@ SECTION "_0000_func_000036B4",ROM0[$000036B4]
 
 	ldh a, [$0040] ;000036B4
 	bit 7, a ;000036B6
-	jr nz, LAB_0000_000036C8 ;000036B8
+	jr nz, LAB_0000_000036C8  ;000036B8
 	nop ; not executed offset: 000036BA
 	nop ; not executed offset: 000036BB
 	nop ; not executed offset: 000036BC

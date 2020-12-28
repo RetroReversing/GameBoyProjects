@@ -52,124 +52,52 @@ SECTION "_0010_func_0000569D",ROMX[$0000569D],BANK[$0010]
 	ld c, $001E ;00005715
 	call $12F8 ;00005717
 	ret c ;0000571A
-	nop ; not executed offset: 0000571B
-	nop ; not executed offset: 0000571C
-	nop ; not executed offset: 0000571D
-	nop ; not executed offset: 0000571E
-	nop ; not executed offset: 0000571F
-	nop ; not executed offset: 00005720
-	nop ; not executed offset: 00005721
-	nop ; not executed offset: 00005722
-	nop ; not executed offset: 00005723
-	nop ; not executed offset: 00005724
-	nop ; not executed offset: 00005725
-	nop ; not executed offset: 00005726
-	nop ; not executed offset: 00005727
-	nop ; not executed offset: 00005728
-	nop ; not executed offset: 00005729
-	nop ; not executed offset: 0000572A
-	nop ; not executed offset: 0000572B
-	nop ; not executed offset: 0000572C
-	nop ; not executed offset: 0000572D
-	nop ; not executed offset: 0000572E
-	nop ; not executed offset: 0000572F
-	nop ; not executed offset: 00005730
-	nop ; not executed offset: 00005731
-	nop ; not executed offset: 00005732
-	nop ; not executed offset: 00005733
-	nop ; not executed offset: 00005734
-	nop ; not executed offset: 00005735
-	nop ; not executed offset: 00005736
-	nop ; not executed offset: 00005737
-	nop ; not executed offset: 00005738
-	nop ; not executed offset: 00005739
-	nop ; not executed offset: 0000573A
-	nop ; not executed offset: 0000573B
-	nop ; not executed offset: 0000573C
-	nop ; not executed offset: 0000573D
-	nop ; not executed offset: 0000573E
-	nop ; not executed offset: 0000573F
-	nop ; not executed offset: 00005740
-	nop ; not executed offset: 00005741
-	nop ; not executed offset: 00005742
-	nop ; not executed offset: 00005743
-	nop ; not executed offset: 00005744
-	nop ; not executed offset: 00005745
-	nop ; not executed offset: 00005746
-	nop ; not executed offset: 00005747
-	nop ; not executed offset: 00005748
-	nop ; not executed offset: 00005749
-	nop ; not executed offset: 0000574A
-	nop ; not executed offset: 0000574B
-	nop ; not executed offset: 0000574C
-	nop ; not executed offset: 0000574D
-	nop ; not executed offset: 0000574E
-	nop ; not executed offset: 0000574F
-	nop ; not executed offset: 00005750
-	nop ; not executed offset: 00005751
-	nop ; not executed offset: 00005752
-	nop ; not executed offset: 00005753
-	nop ; not executed offset: 00005754
-	nop ; not executed offset: 00005755
-	nop ; not executed offset: 00005756
-	nop ; not executed offset: 00005757
-	nop ; not executed offset: 00005758
-	nop ; not executed offset: 00005759
-	nop ; not executed offset: 0000575A
-	nop ; not executed offset: 0000575B
-	nop ; not executed offset: 0000575C
-	nop ; not executed offset: 0000575D
-	nop ; not executed offset: 0000575E
-	nop ; not executed offset: 0000575F
-	nop ; not executed offset: 00005760
-	nop ; not executed offset: 00005761
-	nop ; not executed offset: 00005762
-	nop ; not executed offset: 00005763
-	nop ; not executed offset: 00005764
-	nop ; not executed offset: 00005765
-	nop ; not executed offset: 00005766
-	nop ; not executed offset: 00005767
-	nop ; not executed offset: 00005768
-	nop ; not executed offset: 00005769
-	nop ; not executed offset: 0000576A
-	nop ; not executed offset: 0000576B
-	nop ; not executed offset: 0000576C
-	nop ; not executed offset: 0000576D
-	nop ; not executed offset: 0000576E
-	nop ; not executed offset: 0000576F
-	nop ; not executed offset: 00005770
-	nop ; not executed offset: 00005771
-	nop ; not executed offset: 00005772
-	nop ; not executed offset: 00005773
-	nop ; not executed offset: 00005774
-	nop ; not executed offset: 00005775
-	nop ; not executed offset: 00005776
-	nop ; not executed offset: 00005777
-	nop ; not executed offset: 00005778
-	nop ; not executed offset: 00005779
-	nop ; not executed offset: 0000577A
-	nop ; not executed offset: 0000577B
-	nop ; not executed offset: 0000577C
-	nop ; not executed offset: 0000577D
-	nop ; not executed offset: 0000577E
-	nop ; not executed offset: 0000577F
-	nop ; not executed offset: 00005780
-	nop ; not executed offset: 00005781
-	nop ; not executed offset: 00005782
-	nop ; not executed offset: 00005783
-	nop ; not executed offset: 00005784
-	nop ; not executed offset: 00005785
-	nop ; not executed offset: 00005786
-	nop ; not executed offset: 00005787
-	nop ; not executed offset: 00005788
-	nop ; not executed offset: 00005789
-	nop ; not executed offset: 0000578A
-	nop ; not executed offset: 0000578B
-	nop ; not executed offset: 0000578C
-	nop ; not executed offset: 0000578D
-	nop ; not executed offset: 0000578E
-	nop ; not executed offset: 0000578F
-	nop ; not executed offset: 00005790
-	nop ; not executed offset: 00005791
-	nop ; not executed offset: 00005792
+	ld b, $0005 ;0000571B
+	call $583F ;0000571D
+	ld a, $00BC ;00005720
+	call $23B1 ;00005722
+	ld de, $0800 ;00005725
+	call $580E ;00005728
+	ld a, $00B9 ;0000572B
+	call $23B1 ;0000572D
+	ld a, $0024 ;00005730
+	ld [$D09F], a ;00005732
+	ld de, $5926 ;00005735
+	call $5793 ;00005738
+	ld c, $001E ;0000573B
+	call $12F8 ;0000573D
+	ret c ;00005740
+	ld de, $0401 ;00005741
+	call $580E ;00005744
+	ld b, $0003 ;00005747
+	call $583F ;00005749
+	ld c, $003C ;0000574C
+	call $12F8 ;0000574E
+	ret c ;00005751
+	ld a, $00B9 ;00005752
+	call $23B1 ;00005754
+	xor a ;00005757
+	ld [$D09F], a ;00005758
+	ld de, $5931 ;0000575B
+	call $5793 ;0000575E
+	ld a, $00BA ;00005761
+	call $23B1 ;00005763
+	ld de, $593C ;00005766
+	call $5793 ;00005769
+	ld c, $0014 ;0000576C
+	call $12F8 ;0000576E
+	ret c ;00005771
+	ld a, $0024 ;00005772
+	ld [$D09F], a ;00005774
+	ld de, $5947 ;00005777
+	call $5793 ;0000577A
+	ld c, $001E ;0000577D
+	call $12F8 ;0000577F
+	ret c ;00005782
+	ld a, $00B8 ;00005783
+	call $23B1 ;00005785
+	ld a, $0048 ;00005788
+	ld [$D09F], a ;0000578A
+	ld de, $5950 ;0000578D
+	jp $5793 ;00005790
 ;stopped writing due to overlap with another section

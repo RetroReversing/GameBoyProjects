@@ -3,15 +3,13 @@ SECTION "_0010_func_0000580E",ROMX[$0000580E],BANK[$0010]
 LAB_0010_0000580E:
 	ld a, e ;0000580E
 	cp $00FF ;0000580F
-	jr z, LAB_0010_0000581D ;z_UNTAKEN_JUMP_2 ;00005811
+	jr z, LAB_0010_0000581D  ;z_UNTAKEN_JUMP_2 ;00005811
 	cp $0001 ;00005813
-	jr z, LAB_0010_0000582D ;00005815
-	nop ; not executed offset: 00005817
-	nop ; not executed offset: 00005818
-	nop ; not executed offset: 00005819
-	nop ; not executed offset: 0000581A
-	nop ; not executed offset: 0000581B
-	nop ; not executed offset: 0000581C
+	jr z, LAB_0010_0000582D  ;z_UNTAKEN_JUMP_2 ;00005815
+	ldh a, [$00AE] ;00005817
+	dec a ;00005819
+	dec a ;0000581A
+	jr LAB_0010_00005831 ;0000581B
 LAB_0010_0000581D:
 	push de ;0000581D
 	ld a, $0002 ;0000581E
@@ -25,6 +23,7 @@ LAB_0010_0000582D:
 	ldh a, [$00AE] ;0000582D
 	inc a ;0000582F
 	inc a ;00005830
+LAB_0010_00005831:
 	ldh [$00AE], a ;00005831
 	push de ;00005833
 	ld c, $0002 ;00005834
@@ -32,6 +31,6 @@ LAB_0010_0000582D:
 	pop de ;00005839
 	ret c ;0000583A
 	dec d ;0000583B
-	jr nz, LAB_0010_0000580E ;z_UNTAKEN_JUMP_2 ;0000583C
+	jr nz, LAB_0010_0000580E  ;z_UNTAKEN_JUMP_2 ;0000583C
 	RET ;0000583E
 ;stopped writing due to overlap with another section

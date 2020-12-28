@@ -8,6 +8,6 @@ LAB_0001_00004BFA:
 	ld [c], a ;00004BFB
 	inc c ;00004BFC
 	dec b ;00004BFD
-	jr nz, LAB_0001_00004BFA ;z_UNTAKEN_JUMP_2 ;00004BFE
+	jr nz, LAB_0001_00004BFA  ;z_UNTAKEN_JUMP_2 ;00004BFE
 	RET ;00004C00
 ;stopped writing due to overlap with another section

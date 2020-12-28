@@ -8,6 +8,6 @@ LAB_0010_000057FE:
 	dec bc ;00005801
 	ld a, b ;00005802
 	or c ;00005803
-	jr nz, LAB_0010_000057FE ;z_UNTAKEN_JUMP_2 ;00005804
+	jr nz, LAB_0010_000057FE  ;z_UNTAKEN_JUMP_2 ;00005804
 	RET ;00005806
 ;stopped writing due to overlap with another section

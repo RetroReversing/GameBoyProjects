@@ -8,19 +8,18 @@ SECTION "_001F_func_0000525A",ROMX[$0000525A],BANK[$001F]
 	ld hl, $C02E ;00005265
 	add hl, bc ;00005268
 	bit 1, [hl] ;00005269
-	z_UNTAKEN_JUMP_2 ;0000526B
+	jr nz, LAB_001F_00005298  ;z_UNTAKEN_JUMP_2 ;0000526B
 	ld a, c ;0000526D
 	cp $0003 ;0000526E
-	jr nc, LAB_001F_00005274 ;00005270
-	nop ; not executed offset: 00005272
-	nop ; not executed offset: 00005273
+	jr nc, LAB_001F_00005274  ;z_UNTAKEN_JUMP_2 ;00005270
+	jr LAB_001F_000052B3 ;00005272
 LAB_001F_00005274:
 	res 2, [hl] ;00005274
 	ld hl, $C036 ;00005276
 	add hl, bc ;00005279
 	res 0, [hl] ;0000527A
 	cp $0006 ;0000527C
-	jr nz, LAB_001F_00005288 ;0000527E
+	jr nz, LAB_001F_00005288  ;0000527E
 	nop ; not executed offset: 00005280
 	nop ; not executed offset: 00005281
 	nop ; not executed offset: 00005282
@@ -30,7 +29,7 @@ LAB_001F_00005274:
 	nop ; not executed offset: 00005286
 	nop ; not executed offset: 00005287
 LAB_001F_00005288:
-	jr nz, LAB_001F_00005296 ;00005288
+	jr nz, LAB_001F_00005296  ;00005288
 	nop ; not executed offset: 0000528A
 	nop ; not executed offset: 0000528B
 	nop ; not executed offset: 0000528C
@@ -45,46 +44,36 @@ LAB_001F_00005288:
 	nop ; not executed offset: 00005295
 LAB_001F_00005296:
 	jr LAB_001F_000052BC ;00005296
-	nop ; not executed offset: 00005298
-	nop ; not executed offset: 00005299
-	nop ; not executed offset: 0000529A
-	nop ; not executed offset: 0000529B
-	nop ; not executed offset: 0000529C
-	nop ; not executed offset: 0000529D
-	nop ; not executed offset: 0000529E
-	nop ; not executed offset: 0000529F
-	nop ; not executed offset: 000052A0
-	nop ; not executed offset: 000052A1
-	nop ; not executed offset: 000052A2
-	nop ; not executed offset: 000052A3
-	nop ; not executed offset: 000052A4
-	nop ; not executed offset: 000052A5
-	nop ; not executed offset: 000052A6
-	nop ; not executed offset: 000052A7
-	nop ; not executed offset: 000052A8
-	nop ; not executed offset: 000052A9
-	nop ; not executed offset: 000052AA
-	nop ; not executed offset: 000052AB
-	nop ; not executed offset: 000052AC
-	nop ; not executed offset: 000052AD
-	nop ; not executed offset: 000052AE
-	nop ; not executed offset: 000052AF
-	nop ; not executed offset: 000052B0
-	nop ; not executed offset: 000052B1
-	nop ; not executed offset: 000052B2
-	nop ; not executed offset: 000052B3
-	nop ; not executed offset: 000052B4
-	nop ; not executed offset: 000052B5
-	nop ; not executed offset: 000052B6
-	nop ; not executed offset: 000052B7
-	nop ; not executed offset: 000052B8
-	nop ; not executed offset: 000052B9
-	nop ; not executed offset: 000052BA
-	nop ; not executed offset: 000052BB
+LAB_001F_00005298:
+	res 1, [hl] ;00005298
+	ld d, $0000 ;0000529A
+	ld a, c ;0000529C
+	add a ;0000529D
+	ld e, a ;0000529E
+	ld hl, $C006 ;0000529F
+	add hl, de ;000052A2
+	push hl ;000052A3
+	ld hl, $C016 ;000052A4
+	add hl, de ;000052A7
+	ld e, l ;000052A8
+	ld d, h ;000052A9
+	pop hl ;000052AA
+	ld a, [de] ;000052AB
+	ld [hli], a ;000052AC
+	inc de ;000052AD
+	ld a, [de] ;000052AE
+	ld [hl], a ;000052AF
+	jp $525A ;000052B0
+LAB_001F_000052B3:
+	ld hl, $5B93 ;000052B3
+	add hl, bc ;000052B6
+	ldh a, [$0025] ;000052B7
+	and [hl] ;000052B9
+	ldh [$0025], a ;000052BA
 LAB_001F_000052BC:
 	ld a, [$C02A] ;000052BC
 	cp $0014 ;000052BF
-	jr nc, LAB_001F_000052C5 ;z_UNTAKEN_JUMP_2 ;000052C1
+	jr nc, LAB_001F_000052C5  ;z_UNTAKEN_JUMP_2 ;000052C1
 	jr LAB_001F_000052E2 ;000052C3
 LAB_001F_000052C5:
 	ld a, [$C02A] ;000052C5

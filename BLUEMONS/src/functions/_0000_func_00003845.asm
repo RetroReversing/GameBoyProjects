@@ -4,28 +4,30 @@ SECTION "_0000_func_00003845",ROM0[$00003845]
 	ldh a, [$00B7] ;00003848
 	and a ;0000384A
 	ldh a, [$00B3] ;0000384B
-	jr z, LAB_0000_00003851 ;0000384D
+	jr z, LAB_0000_00003851  ;0000384D
 	nop ; not executed offset: 0000384F
 	nop ; not executed offset: 00003850
 LAB_0000_00003851:
 	ldh [$00B5], a ;00003851
 	ldh a, [$00B3] ;00003853
 	and a ;00003855
-	jr z, LAB_0000_0000385D ;z_UNTAKEN_JUMP_2 ;00003856
-	ld a, $001E ;00003858
-	ldh [$00D5], a ;0000385A
-	RET ;0000385C
+	jr z, LAB_0000_0000385D  ;00003856
+	nop ; not executed offset: 00003858
+	nop ; not executed offset: 00003859
+	nop ; not executed offset: 0000385A
+	nop ; not executed offset: 0000385B
+	nop ; not executed offset: 0000385C
 LAB_0000_0000385D:
 	ldh a, [$00D5] ;0000385D
 	and a ;0000385F
-	jr z, LAB_0000_00003866 ;z_UNTAKEN_JUMP_2 ;00003860
+	jr z, LAB_0000_00003866  ;z_UNTAKEN_JUMP_2 ;00003860
 	xor a ;00003862
 	ldh [$00B5], a ;00003863
 	RET ;00003865
 LAB_0000_00003866:
 	ldh a, [$00B4] ;00003866
 	and $0003 ;00003868
-	jr z, LAB_0000_00003874 ;0000386A
+	jr z, LAB_0000_00003874  ;0000386A
 	nop ; not executed offset: 0000386C
 	nop ; not executed offset: 0000386D
 	nop ; not executed offset: 0000386E

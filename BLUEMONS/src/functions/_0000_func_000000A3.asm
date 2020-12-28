@@ -1,6 +1,5 @@
 SECTION "_0000_func_000000A3",ROM0[$000000A3]
 
-LAB_0000_000000A3:
 	nop ; not executed offset: 000000A3
 	nop ; not executed offset: 000000A4
 	nop ; not executed offset: 000000A5

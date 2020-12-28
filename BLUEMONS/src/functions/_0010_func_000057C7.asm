@@ -19,12 +19,12 @@ LAB_0010_000057D1:
 	ld [hli], a ;000057DE
 	inc d ;000057DF
 	dec c ;000057E0
-	jr nz, LAB_0010_000057D1 ;z_UNTAKEN_JUMP_2 ;000057E1
+	jr nz, LAB_0010_000057D1  ;z_UNTAKEN_JUMP_2 ;000057E1
 	ld a, [$D081] ;000057E3
 	add $0008 ;000057E6
 	ld [$D081], a ;000057E8
 	pop bc ;000057EB
 	dec b ;000057EC
-	jr nz, LAB_0010_000057CC ;z_UNTAKEN_JUMP_2 ;000057ED
+	jr nz, LAB_0010_000057CC  ;z_UNTAKEN_JUMP_2 ;000057ED
 	RET ;000057EF
 ;stopped writing due to overlap with another section

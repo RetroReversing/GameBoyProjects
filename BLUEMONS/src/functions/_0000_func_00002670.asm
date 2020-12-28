@@ -1,0 +1,16 @@
+SECTION "_0000_func_00002670",ROM0[$00002670]
+
+	ld a, [$D0A6] ;00002670
+	dec a ;00002673
+	jr nz, LAB_0000_0000267E  ;z_UNTAKEN_JUMP_2 ;00002674
+	call $268B ;00002676
+	ld [$D0A5], a ;00002679
+	ld a, $0008 ;0000267C
+LAB_0000_0000267E:
+	ld [$D0A6], a ;0000267E
+	ld a, [$D0A5] ;00002681
+	RLCA ;00002684
+	ld [$D0A5], a ;00002685
+	and $0001 ;00002688
+	RET ;0000268A
+;stopped writing due to overlap with another section
