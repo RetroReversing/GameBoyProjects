@@ -41,33 +41,4 @@ SECTION "_0000_func_000017F7",ROM0[$000017F7]
 	nop ; not executed offset: 00001828
 	nop ; not executed offset: 00001829
 	nop ; not executed offset: 0000182A
-	nop ; not executed offset: 0000182B
-	nop ; not executed offset: 0000182C
-	nop ; not executed offset: 0000182D
-	nop ; not executed offset: 0000182E
-	nop ; not executed offset: 0000182F
-	nop ; not executed offset: 00001830
-	nop ; not executed offset: 00001831
-	nop ; not executed offset: 00001832
-	nop ; not executed offset: 00001833
-	nop ; not executed offset: 00001834
-	nop ; not executed offset: 00001835
-	nop ; not executed offset: 00001836
-	nop ; not executed offset: 00001837
-	nop ; not executed offset: 00001838
-	nop ; not executed offset: 00001839
-	nop ; not executed offset: 0000183A
-	nop ; not executed offset: 0000183B
-	nop ; not executed offset: 0000183C
-	nop ; not executed offset: 0000183D
-	nop ; not executed offset: 0000183E
-	nop ; not executed offset: 0000183F
-	nop ; not executed offset: 00001840
-	nop ; not executed offset: 00001841
-	nop ; not executed offset: 00001842
-	nop ; not executed offset: 00001843
-	nop ; not executed offset: 00001844
-	nop ; not executed offset: 00001845
-	nop ; not executed offset: 00001846
-	nop ; not executed offset: 00001847
 ;stopped writing due to overlap with another section

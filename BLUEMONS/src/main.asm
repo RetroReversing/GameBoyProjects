@@ -91,3 +91,5 @@ INCLUDE "./functions/_001F_func_000058EA.asm"
 INCLUDE "./functions/_001F_func_00005AFD.asm"
 
 INCLUDE "jumps.asm"
+
+INCLUDE "unwritten_relative_jumps.asm"
