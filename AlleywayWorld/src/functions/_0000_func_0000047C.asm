@@ -1,0 +1,15 @@
+SECTION "_0000_func_0000047C",ROM0[$0000047C]
+
+	ld b, $00FF ;0000047C
+	ld c, $00FF ;0000047E
+	inc c ;00000480
+	sub a,$0064 ;00000481
+	z_UNTAKEN_JUMP_2 ;00000483
+	add $0064 ;00000485
+LAB_0000_00000487:
+	inc b ;00000487
+	sub a,$000A ;00000488
+	jr nc, LAB_0000_00000487 ;z_UNTAKEN_JUMP_2 ;0000048A
+	add $000A ;0000048C
+	RET ;0000048E
+;stopped writing due to overlap with another section

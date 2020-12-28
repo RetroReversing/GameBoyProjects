@@ -1,0 +1,12 @@
+SECTION "_0000_func_00000221",ROM0[$00000221]
+
+LAB_0000_00000221:
+	ld a, $0000 ;00000221
+	ldh [$00A0], a ;00000223
+LAB_0000_00000225:
+	halt ;00000225
+	ldh a, [$00A0] ;00000226
+	cp $0000 ;00000228
+	jr z, LAB_0000_00000225 ;z_UNTAKEN_JUMP_2 ;0000022A
+	RET ;0000022C
+;stopped writing due to overlap with another section

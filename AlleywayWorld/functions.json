@@ -1,0 +1,3047 @@
+[
+  [
+    130,
+    {
+      "additional": {
+        "callers": {
+          "": 3
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 130,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000082",
+      "func_offset": "00000082",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 20,
+      "stack_trace": ""
+    }
+  ],
+  [
+    151,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_000000A30x97->": 3
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 151,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000097",
+      "func_offset": "00000097",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ],
+  [
+    163,
+    {
+      "additional": {
+        "callers": {
+          "0xa3->": 3
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 163,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000000A3",
+      "func_offset": "000000A3",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 6,
+      "stack_trace": ""
+    }
+  ],
+  [
+    170,
+    {
+      "additional": {
+        "callers": {
+          "0xaa->": 48
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 170,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000000AA",
+      "func_offset": "000000AA",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 6,
+      "stack_trace": ""
+    }
+  ],
+  [
+    545,
+    {
+      "additional": {
+        "callers": {
+          "0x221->": 138
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 545,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000221",
+      "func_offset": "00000221",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ],
+  [
+    557,
+    {
+      "additional": {
+        "callers": {
+          "0x22d->": 138
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 557,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000022D",
+      "func_offset": "0000022D",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 5,
+      "stack_trace": ""
+    }
+  ],
+  [
+    563,
+    {
+      "additional": {
+        "callers": {
+          "0x233->": 123
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 563,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000233",
+      "func_offset": "00000233",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    573,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A2->_0001_func_000048070x23d->": 909
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 573,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000023D",
+      "func_offset": "0000023D",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294967279,
+      "stack_trace": ""
+    }
+  ],
+  [
+    580,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x244->": 141
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 580,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000244",
+      "func_offset": "00000244",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 10,
+      "stack_trace": ""
+    }
+  ],
+  [
+    591,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x24f->": 140
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 591,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000024F",
+      "func_offset": "0000024F",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294967261,
+      "stack_trace": ""
+    }
+  ],
+  [
+    599,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x257->": 949
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 599,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000257",
+      "func_offset": "00000257",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 8,
+      "stack_trace": ""
+    }
+  ],
+  [
+    663,
+    {
+      "additional": {
+        "callers": {
+          "0x297->": 138
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 663,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000297",
+      "func_offset": "00000297",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    673,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_000002210x2a1->": 139
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 673,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000002A1",
+      "func_offset": "000002A1",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 21,
+      "stack_trace": ""
+    }
+  ],
+  [
+    705,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x2c1->": 141
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 705,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000002C1",
+      "func_offset": "000002C1",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 5,
+      "stack_trace": ""
+    }
+  ],
+  [
+    711,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000002C10x2c7->": 141
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 711,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000002C7",
+      "func_offset": "000002C7",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 58,
+      "stack_trace": ""
+    }
+  ],
+  [
+    856,
+    {
+      "additional": {
+        "callers": {
+          "0x358->": 136
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 856,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000358",
+      "func_offset": "00000358",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 19,
+      "stack_trace": ""
+    }
+  ],
+  [
+    861,
+    {
+      "additional": {
+        "callers": {
+          "0x35d->": 137
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 861,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000035D",
+      "func_offset": "0000035D",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
+    876,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x36c->": 141
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 876,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000036C",
+      "func_offset": "0000036C",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ],
+  [
+    888,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x378->": 3938
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 888,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000378",
+      "func_offset": "00000378",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294967295,
+      "stack_trace": ""
+    }
+  ],
+  [
+    897,
+    {
+      "additional": {
+        "callers": {
+          "0x381->": 131
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 897,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000381",
+      "func_offset": "00000381",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 51,
+      "stack_trace": ""
+    }
+  ],
+  [
+    961,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_000002210x3c1->": 139
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 961,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000003C1",
+      "func_offset": "000003C1",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 84,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1108,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x454->": 909
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1108,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000454",
+      "func_offset": "00000454",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 29,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1148,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A2->_0001_func_000046690x47c->": 947
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1148,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000047C",
+      "func_offset": "0000047C",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 18,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1167,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000048E40x48f->": 141
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1167,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000048F",
+      "func_offset": "0000048F",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 117,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1285,
+    {
+      "additional": {
+        "callers": {
+          "0x505->": 138
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1285,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000505",
+      "func_offset": "00000505",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1323,
+    {
+      "additional": {
+        "callers": {
+          "0x52b->": 138
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1323,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000052B",
+      "func_offset": "0000052B",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 1022,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1698,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x6a2->": 909
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1698,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000006A2",
+      "func_offset": "000006A2",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 149,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1848,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x738->": 27367
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1848,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000738",
+      "func_offset": "00000738",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1860,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x744->": 911
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1860,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000744",
+      "func_offset": "00000744",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 7,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1868,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x74c->": 13606
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1868,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000074C",
+      "func_offset": "0000074C",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 38,
+      "stack_trace": ""
+    }
+  ],
+  [
+    1924,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x784->": 975
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 1924,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000784",
+      "func_offset": "00000784",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 31,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2083,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x823->": 13459
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2083,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000823",
+      "func_offset": "00000823",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294965820,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2091,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x82b->": 13603
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2091,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000082B",
+      "func_offset": "0000082B",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 13,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2250,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000046030x8ca->": 909
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2250,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000008CA",
+      "func_offset": "000008CA",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 6,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2346,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x92a->": 911
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2346,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000092A",
+      "func_offset": "0000092A",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 88,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2435,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A2->_0000_func_0000092A0x983->": 911
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2435,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000983",
+      "func_offset": "00000983",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 19,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2455,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x997->": 965
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2455,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000997",
+      "func_offset": "00000997",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 393,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2491,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A2->_0000_func_0000092A0x9bb->": 912
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2491,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000009BB",
+      "func_offset": "000009BB",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2512,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x9d0->": 944
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2512,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000009D0",
+      "func_offset": "000009D0",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 40,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2553,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0x9f9->": 1103
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2553,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000009F9",
+      "func_offset": "000009F9",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 156,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2710,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A2->_0000_func_0000092A->_0000_func_000009BB0xa96->": 912
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2710,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000A96",
+      "func_offset": "00000A96",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 138,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2849,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0xb21->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2849,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000B21",
+      "func_offset": "00000B21",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 49,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2899,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000B210xb53->": 13674
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2899,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000B53",
+      "func_offset": "00000B53",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2909,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000B210xb5d->": 41968
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2909,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000B5D",
+      "func_offset": "00000B5D",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2919,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000046030xb67->": 909
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2919,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000B67",
+      "func_offset": "00000B67",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 53,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2973,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20xb9d->": 946
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2973,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000B9D",
+      "func_offset": "00000B9D",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 41,
+      "stack_trace": ""
+    }
+  ],
+  [
+    2989,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00001113->_0000_func_0000116D->_0000_func_00000BC70xbad->": 22361
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 2989,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000BAD",
+      "func_offset": "00000BAD",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 25,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3015,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00001113->_0000_func_0000116D0xbc7->": 2101
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3015,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000BC7",
+      "func_offset": "00000BC7",
+      "func_stack": 6,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294967129,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3058,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00001113->_0000_func_0000116D->_0000_func_00000BC70xbf2->": 22361
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3058,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000BF2",
+      "func_offset": "00000BF2",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 63,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3122,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0xc32->": 1102
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3122,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000C32",
+      "func_offset": "00000C32",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 33,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3163,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0xc5b->": 1102
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3163,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000C5B",
+      "func_offset": "00000C5B",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 21,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3185,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0xc71->": 1102
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3185,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000C71",
+      "func_offset": "00000C71",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 52,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3215,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0xc8f->": 3794
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3215,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000C8F",
+      "func_offset": "00000C8F",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 22,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3238,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0xca6->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3238,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000CA6",
+      "func_offset": "00000CA6",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3248,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA60xcb0->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3248,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000CB0",
+      "func_offset": "00000CB0",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 159,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3383,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB00xd37->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3383,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000D37",
+      "func_offset": "00000D37",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 24,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3408,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D370xd50->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3408,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000D50",
+      "func_offset": "00000D50",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 381,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3443,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D370xd73->": 1034
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3443,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000D73",
+      "func_offset": "00000D73",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 346,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3478,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D370xd96->": 1062
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3478,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000D96",
+      "func_offset": "00000D96",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 310,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3513,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D370xdb9->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3513,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000DB9",
+      "func_offset": "00000DB9",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 302,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3548,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000DB90xddc->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3548,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000DDC",
+      "func_offset": "00000DDC",
+      "func_stack": 6,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 168,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3725,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB00xe8d->": 27955
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3725,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000E8D",
+      "func_offset": "00000E8D",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 31,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3757,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB00xead->": 1062
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3757,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000EAD",
+      "func_offset": "00000EAD",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 31,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3816,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D500xee8->": 2526
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3816,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000EE8",
+      "func_offset": "00000EE8",
+      "func_stack": 6,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3831,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D730xef7->": 1103
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3831,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000EF7",
+      "func_offset": "00000EF7",
+      "func_stack": 6,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 16,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3848,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000EAD0xf08->": 1185
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3848,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000F08",
+      "func_offset": "00000F08",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 23,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3872,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000EAD0xf20->": 1062
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3872,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000F20",
+      "func_offset": "00000F20",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3887,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0xf2f->": 1102
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3887,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000F2F",
+      "func_offset": "00000F2F",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 219,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3919,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0xf4f->": 4326
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3919,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000F4F",
+      "func_offset": "00000F4F",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 13,
+      "stack_trace": ""
+    }
+  ],
+  [
+    3964,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA60xf7c->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 3964,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000F7C",
+      "func_offset": "00000F7C",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 54,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4019,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000784->_0000_func_0000101B0xfb3->": 975
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4019,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000FB3",
+      "func_offset": "00000FB3",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4029,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC->_0000_func_00000F4F0xfbd->": 5133
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4029,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00000FBD",
+      "func_offset": "00000FBD",
+      "func_stack": 8,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 77,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4123,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000007840x101b->": 975
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4123,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000101B",
+      "func_offset": "0000101B",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 113,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4237,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA60x108d->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4237,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000108D",
+      "func_offset": "0000108D",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 15,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4253,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x109d->": 4019
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4253,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000109D",
+      "func_offset": "0000109D",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 6,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4260,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_0000109D0x10a4->": 4019
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4260,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000010A4",
+      "func_offset": "000010A4",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 58,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4332,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x10ec->": 992
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4332,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000010EC",
+      "func_offset": "000010EC",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4347,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x10fb->": 975
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4347,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000010FB",
+      "func_offset": "000010FB",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294967295,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4371,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB00x1113->": 1027
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4371,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00001113",
+      "func_offset": "00001113",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 21196,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4461,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_000011130x116d->": 1027
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4461,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000116D",
+      "func_offset": "0000116D",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 33,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4471,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000007840x1177->": 975
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4471,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00001177",
+      "func_offset": "00001177",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 23,
+      "stack_trace": ""
+    }
+  ],
+  [
+    4495,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x118f->": 976
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 4495,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000118F",
+      "func_offset": "0000118F",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 94,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6540,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x198c->": 27825
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6540,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_0000198C",
+      "func_offset": "0000198C",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 58,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6562,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000019CC0x19a2->": 27433
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6562,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000019A2",
+      "func_offset": "000019A2",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 36,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6599,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_0000198C0x19c7->": 30856
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6599,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000019C7",
+      "func_offset": "000019C7",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6604,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x19cc->": 27432
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6604,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000019CC",
+      "func_offset": "000019CC",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 21,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6626,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000019CC0x19e2->": 27432
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6626,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000019E2",
+      "func_offset": "000019E2",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 20,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6647,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x19f7->": 30957
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6647,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_000019F7",
+      "func_offset": "000019F7",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294961256,
+      "stack_trace": ""
+    }
+  ],
+  [
+    6854,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x1ac6->": 910
+        }
+      },
+      "bank_number": "0000",
+      "bank_offset": 6854,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0000_func_00001AC6",
+      "func_offset": "00001AC6",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294960998,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17372,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x43dc->": 3835
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17372,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000043DC",
+      "func_offset": "000043DC",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 112,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17572,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x44a4->": 3835
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17572,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000044A4",
+      "func_offset": "000044A4",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 25,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17598,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x44be->": 3835
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17598,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000044BE",
+      "func_offset": "000044BE",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294950254,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17615,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x44cf->": 3913
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17615,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000044CF",
+      "func_offset": "000044CF",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 37,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17677,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x450d->": 3888
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17677,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000450D",
+      "func_offset": "0000450D",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 19,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17697,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x4521->": 3954
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17697,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004521",
+      "func_offset": "00004521",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 17,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17715,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC->_0001_func_0000450D0x4533->": 3888
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17715,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004533",
+      "func_offset": "00004533",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 29,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17757,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x455d->": 4791
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17757,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000455D",
+      "func_offset": "0000455D",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294950426,
+      "stack_trace": ""
+    }
+  ],
+  [
+    17923,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x4603->": 907
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 17923,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004603",
+      "func_offset": "00004603",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294949963,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18025,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x4669->": 947
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18025,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004669",
+      "func_offset": "00004669",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 141,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18167,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x46f7->": 27404
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18167,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000046F7",
+      "func_offset": "000046F7",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 84,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18252,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x474c->": 783
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18252,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000474C",
+      "func_offset": "0000474C",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 84,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18337,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x47a1->": 948
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18337,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000047A1",
+      "func_offset": "000047A1",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294949515,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18375,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x47c7->": 946
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18375,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000047C7",
+      "func_offset": "000047C7",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294949477,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18404,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000019CC0x47e4->": 27432
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18404,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000047E4",
+      "func_offset": "000047E4",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294949448,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18439,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x4807->": 909
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18439,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004807",
+      "func_offset": "00004807",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294949413,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18462,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x481e->": 946
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18462,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000481E",
+      "func_offset": "0000481E",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 197,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18660,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x48e4->": 141
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18660,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000048E4",
+      "func_offset": "000048E4",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 100,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18959,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000046030x4a0f->": 909
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18959,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004A0F",
+      "func_offset": "00004A0F",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 25,
+      "stack_trace": ""
+    }
+  ],
+  [
+    18985,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000006A20x4a29->": 947
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 18985,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004A29",
+      "func_offset": "00004A29",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 0,
+      "stack_trace": ""
+    }
+  ],
+  [
+    19046,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC->_0001_func_000044BE0x4a66->": 3835
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 19046,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00004A66",
+      "func_offset": "00004A66",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 36,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25461,
+    {
+      "additional": {
+        "callers": {
+          "0x6375->": 138
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25461,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006375",
+      "func_offset": "00006375",
+      "func_stack": 1,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 12,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25474,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x6382->": 141
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25474,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006382",
+      "func_offset": "00006382",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25479,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x6387->": 907
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25479,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006387",
+      "func_offset": "00006387",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 5,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25485,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC0x638d->": 1103
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25485,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000638D",
+      "func_offset": "0000638D",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 82,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25518,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00000D37->_0000_func_00000D73->_0000_func_00000DDC->_0000_func_00000C710x63ae->": 1102
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25518,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063AE",
+      "func_offset": "000063AE",
+      "func_stack": 8,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 49,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25542,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000007840x63c6->": 976
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25542,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063C6",
+      "func_offset": "000063C6",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 25,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25550,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x63ce->": 3888
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25550,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063CE",
+      "func_offset": "000063CE",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 17,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25558,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB00x63d6->": 35373
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25558,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063D6",
+      "func_offset": "000063D6",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25562,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB00x63da->": 1062
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25562,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063DA",
+      "func_offset": "000063DA",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 5,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25568,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_0000455D0x63e0->": 4791
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25568,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063E0",
+      "func_offset": "000063E0",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 7,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25576,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x63e8->": 141
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25576,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063E8",
+      "func_offset": "000063E8",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 49,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25580,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000043DC0x63ec->": 3835
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25580,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063EC",
+      "func_offset": "000063EC",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 45,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25588,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x63f4->": 783
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25588,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063F4",
+      "func_offset": "000063F4",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 37,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25592,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000008230x63f8->": 13459
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25592,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063F8",
+      "func_offset": "000063F8",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 33,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25596,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B0x63fc->": 27824
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25596,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000063FC",
+      "func_offset": "000063FC",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 29,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25600,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_0000198C0x6400->": 30216
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25600,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006400",
+      "func_offset": "00006400",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 25,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25604,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000019CC0x6404->": 27433
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25604,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006404",
+      "func_offset": "00006404",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 21,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25608,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_000019F70x6408->": 30957
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25608,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006408",
+      "func_offset": "00006408",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 17,
+      "stack_trace": ""
+    }
+  ],
+  [
+    25616,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000CA6->_0000_func_00000CB0->_0000_func_00001113->_0000_func_0000116D->_0000_func_00000BC70x6410->": 22361
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 25616,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006410",
+      "func_offset": "00006410",
+      "func_stack": 7,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 9,
+      "stack_trace": ""
+    }
+  ],
+  [
+    27111,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF00x69e7->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 27111,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000069E7",
+      "func_offset": "000069E7",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 19,
+      "stack_trace": ""
+    }
+  ],
+  [
+    27131,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF00x69fb->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 27131,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000069FB",
+      "func_offset": "000069FB",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 1441,
+      "stack_trace": ""
+    }
+  ],
+  [
+    28573,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF0->_0001_func_000069FB0x6f9d->": 4146
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 28573,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00006F9D",
+      "func_offset": "00006F9D",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 14,
+      "stack_trace": ""
+    }
+  ],
+  [
+    28752,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF00x7050->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 28752,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00007050",
+      "func_offset": "00007050",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 34,
+      "stack_trace": ""
+    }
+  ],
+  [
+    28787,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_0000455D->_0000_func_00000221->_0001_func_00007FF0->_0001_func_000070500x7073->": 4792
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 28787,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00007073",
+      "func_offset": "00007073",
+      "func_stack": 6,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ],
+  [
+    28799,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF0->_0001_func_000070500x707f->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 28799,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000707F",
+      "func_offset": "0000707F",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 46,
+      "stack_trace": ""
+    }
+  ],
+  [
+    28846,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF00x70ae->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 28846,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000070AE",
+      "func_offset": "000070AE",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 1118,
+      "stack_trace": ""
+    }
+  ],
+  [
+    29580,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000221->_0001_func_00007FF0->_0001_func_000070AE0x738c->": 142
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 29580,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000738C",
+      "func_offset": "0000738C",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 210,
+      "stack_trace": ""
+    }
+  ],
+  [
+    29791,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000221->_0001_func_00007FF0->_0001_func_000070AE->_0001_func_0000738C0x745f->": 142
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 29791,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000745F",
+      "func_offset": "0000745F",
+      "func_stack": 6,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 24,
+      "stack_trace": ""
+    }
+  ],
+  [
+    29867,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_00000221->_0001_func_00007FF00x74ab->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 29867,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_000074AB",
+      "func_offset": "000074AB",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 77,
+      "stack_trace": ""
+    }
+  ],
+  [
+    29965,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_00004603->_0001_func_00007FF30x750d->": 909
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 29965,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000750D",
+      "func_offset": "0000750D",
+      "func_stack": 4,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 16,
+      "stack_trace": ""
+    }
+  ],
+  [
+    29982,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000221->_0001_func_00007FF0->_0001_func_000070AE0x751e->": 148
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 29982,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000751E",
+      "func_offset": "0000751E",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 3,
+      "stack_trace": ""
+    }
+  ],
+  [
+    29986,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0000_func_00000221->_0001_func_00007FF0->_0001_func_000070AE0x7522->": 148
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 29986,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00007522",
+      "func_offset": "00007522",
+      "func_stack": 5,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 3,
+      "stack_trace": ""
+    }
+  ],
+  [
+    32752,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_000002210x7ff0->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 32752,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00007FF0",
+      "func_offset": "00007FF0",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 4294961193,
+      "stack_trace": ""
+    }
+  ],
+  [
+    32755,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_0000052B->_0001_func_000046030x7ff3->": 909
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 32755,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_00007FF3",
+      "func_offset": "00007FF3",
+      "func_stack": 3,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 3,
+      "stack_trace": ""
+    }
+  ],
+  [
+    65408,
+    {
+      "additional": {
+        "callers": {
+          "_0000_func_000002210xff80->": 139
+        }
+      },
+      "bank_number": "0001",
+      "bank_offset": 65408,
+      "caller_offset": "",
+      "export_path": "",
+      "func_name": "_0001_func_0000FF80",
+      "func_offset": "0000FF80",
+      "func_stack": 2,
+      "function_bytes": "",
+      "isRenamed": false,
+      "return_offset_from_start": 11,
+      "stack_trace": ""
+    }
+  ]
+]

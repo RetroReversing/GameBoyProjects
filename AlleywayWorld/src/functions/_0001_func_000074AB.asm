@@ -1,0 +1,17 @@
+SECTION "_0001_func_000074AB",ROMX[$000074AB],BANK[$0001]
+
+	ld a, [$DFD2] ;000074AB
+	cp $0001 ;000074AE
+	jp nz, $74F4 ;z_UNTAKEN_LONG_JUMP ;000074B0
+	ld a, [$DFD5] ;000074B3
+	cp $0001 ;000074B6
+	jp nz, $74D7 ;z_UNTAKEN_LONG_JUMP ;000074B8
+	ld a, [$DFD3] ;000074BB
+	dec a ;000074BE
+	ld [$DFD3], a ;000074BF
+	cp $0000 ;000074C2
+	jp z, $74CC ;z_UNTAKEN_LONG_JUMP ;000074C4
+	ld a, $0075 ;000074C7
+	ldh [$0025], a ;000074C9
+	RET ;000074CB
+;stopped writing due to overlap with another section

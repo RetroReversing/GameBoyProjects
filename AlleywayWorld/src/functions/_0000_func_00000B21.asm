@@ -1,0 +1,35 @@
+SECTION "_0000_func_00000B21",ROM0[$00000B21]
+
+	ldh a, [$00AB] ;00000B21
+	cp $0000 ;00000B23
+	ret z ;00000B25
+	ld hl, $CA00 ;00000B26
+	ld de, $CA14 ;00000B29
+	ld bc, $CA28 ;00000B2C
+	ld a, $0000 ;00000B2F
+LAB_0000_00000B31:
+	push af ;00000B31
+	ld a, [bc] ;00000B32
+	dec a ;00000B33
+	jr nz, LAB_0000_00000B48 ;z_UNTAKEN_JUMP_2 ;00000B34
+	ld a, [de] ;00000B36
+	cp $0000 ;00000B37
+	z_UNTAKEN_JUMP_2 ;00000B39
+	and $0080 ;00000B3B
+	push af ;00000B3D
+	call z, $0B53 ;call z_UNCALLED_FUNCTION ;00000B3E
+	pop af ;00000B41
+	call nz, $0B5D ;call z_UNCALLED_FUNCTION ;00000B42
+	ld a, [de] ;00000B45
+	and $007F ;00000B46
+LAB_0000_00000B48:
+	ld [bc], a ;00000B48
+	inc hl ;00000B49
+	inc de ;00000B4A
+	inc bc ;00000B4B
+	pop af ;00000B4C
+	inc a ;00000B4D
+	cp $0014 ;00000B4E
+	jr c, LAB_0000_00000B31 ;z_UNTAKEN_JUMP_2 ;00000B50
+	RET ;00000B52
+;stopped writing due to overlap with another section
