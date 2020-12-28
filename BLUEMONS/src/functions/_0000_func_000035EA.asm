@@ -161,4 +161,36 @@ SECTION "_0000_func_000035EA",ROM0[$000035EA]
 	nop ; not executed offset: 00003691
 	nop ; not executed offset: 00003692
 	nop ; not executed offset: 00003693
+	nop ; not executed offset: 00003694
+	nop ; not executed offset: 00003695
+	nop ; not executed offset: 00003696
+	nop ; not executed offset: 00003697
+	nop ; not executed offset: 00003698
+	nop ; not executed offset: 00003699
+	nop ; not executed offset: 0000369A
+	nop ; not executed offset: 0000369B
+	nop ; not executed offset: 0000369C
+	nop ; not executed offset: 0000369D
+	nop ; not executed offset: 0000369E
+	nop ; not executed offset: 0000369F
+	nop ; not executed offset: 000036A0
+	nop ; not executed offset: 000036A1
+	nop ; not executed offset: 000036A2
+	nop ; not executed offset: 000036A3
+	nop ; not executed offset: 000036A4
+	nop ; not executed offset: 000036A5
+	nop ; not executed offset: 000036A6
+	nop ; not executed offset: 000036A7
+	nop ; not executed offset: 000036A8
+	nop ; not executed offset: 000036A9
+	nop ; not executed offset: 000036AA
+	nop ; not executed offset: 000036AB
+	nop ; not executed offset: 000036AC
+	nop ; not executed offset: 000036AD
+	nop ; not executed offset: 000036AE
+	nop ; not executed offset: 000036AF
+	nop ; not executed offset: 000036B0
+	nop ; not executed offset: 000036B1
+	nop ; not executed offset: 000036B2
+	nop ; not executed offset: 000036B3
 ;stopped writing due to overlap with another section

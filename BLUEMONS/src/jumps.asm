@@ -1235,6 +1235,10 @@ SECTION "JMP_0002_00005A34",ROMX[$00005A34],BANK[$0002]
 
 
 ;;;;;;;;;;;
+; Bank:0003
+
+
+;;;;;;;;;;;
 ; Bank:0004
 
 SECTION "JMP_0004_00007A8F",ROMX[$00007A8F],BANK[$0004]
@@ -2436,6 +2440,10 @@ SECTION "JMP_0010_00005682",ROMX[$00005682],BANK[$0010]
 SECTION "JMP_0010_00005807",ROMX[$00005807],BANK[$0010]
 ; Called by: 0010::00005909
 ; Address Also defined as function
+
+
+;;;;;;;;;;;
+; Bank:0013
 
 
 ;;;;;;;;;;;
