@@ -6,7 +6,7 @@ SECTION "_0003_func_00004000",ROMX[$00004000],BANK[$0003]
 	ld b, a ;00004007
 	ldh a, [$00B1] ;00004008
 	ld e, a ;0000400A
-	xor a ;0000400B
+	xor b ;0000400B
 	ld d, a ;0000400C
 	and e ;0000400D
 	ldh [$00B2], a ;0000400E

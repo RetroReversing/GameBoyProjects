@@ -8,7 +8,7 @@ LAB_001C_0000614D:
 	dec de ;00006150
 	ld a, d ;00006151
 	or e ;00006152
-	jr nz, LAB_001C_0000614D  ;z_UNTAKEN_JUMP_2 ;00006153
+	jr nz, LAB_001C_0000614D ;z_UNTAKEN_JUMP_2 ;00006153
 	RET ;00006155
 	nop ; not executed offset: 00006156
 	nop ; not executed offset: 00006157

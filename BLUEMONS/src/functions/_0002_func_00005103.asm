@@ -7,7 +7,7 @@ LAB_0002_00005105:
 	add hl, bc ;0000510A
 	ld a, [hl] ;0000510B
 	and a ;0000510C
-	jr z, LAB_0002_00005131  ;0000510D
+	jr z, LAB_0002_00005131 ;0000510D
 	nop ; not executed offset: 0000510F
 	nop ; not executed offset: 00005110
 	nop ; not executed offset: 00005111
@@ -46,7 +46,7 @@ LAB_0002_00005131:
 	ld a, c ;00005131
 	inc c ;00005132
 	cp $0007 ;00005133
-	jr nz, LAB_0002_00005105  ;z_UNTAKEN_JUMP_2 ;00005135
+	jr nz, LAB_0002_00005105 ;z_UNTAKEN_JUMP_2 ;00005135
 	RET ;00005137
 	nop ; not executed offset: 00005138
 	nop ; not executed offset: 00005139

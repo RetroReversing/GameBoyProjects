@@ -12,7 +12,7 @@ LAB_0000_000020DD:
 	ld c, $0008 ;000020E6
 	call $374D ;000020E8
 	dec b ;000020EB
-	jr nz, LAB_0000_000020DD  ;z_UNTAKEN_JUMP_2 ;000020EC
+	jr nz, LAB_0000_000020DD ;z_UNTAKEN_JUMP_2 ;000020EC
 	RET ;000020EE
 	nop ; not executed offset: 000020EF
 	nop ; not executed offset: 000020F0

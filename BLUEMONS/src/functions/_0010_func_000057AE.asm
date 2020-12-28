@@ -15,6 +15,6 @@ LAB_0010_000057B5:
 	inc hl ;000057C1
 	inc d ;000057C2
 	dec c ;000057C3
-	jr nz, LAB_0010_000057B5  ;z_UNTAKEN_JUMP_2 ;000057C4
+	jr nz, LAB_0010_000057B5 ;z_UNTAKEN_JUMP_2 ;000057C4
 	RET ;000057C6
 ;stopped writing due to overlap with another section

@@ -12,14 +12,14 @@ SECTION "_0000_func_00001665",ROM0[$00001665]
 	ldh [$008B], a ;00001675
 	ld b, a ;00001677
 	ld a, $0007 ;00001678
-	nop ; not executed offset: 0000167A
+	sub b ;0000167A
 	inc a ;0000167B
 	srl a ;0000167C
 	ld b, a ;0000167E
 	add a ;0000167F
 	add a ;00001680
 	add a ;00001681
-	nop ; not executed offset: 00001682
+	sub b ;00001682
 	ldh [$008D], a ;00001683
 	ld a, c ;00001685
 	swap a ;00001686
@@ -30,7 +30,7 @@ SECTION "_0000_func_00001665",ROM0[$00001665]
 	add a ;0000168D
 	ldh [$008C], a ;0000168E
 	ld a, $0007 ;00001690
-	nop ; not executed offset: 00001692
+	sub b ;00001692
 	ld b, a ;00001693
 	ldh a, [$008D] ;00001694
 	add b ;00001696

@@ -27,12 +27,12 @@ LAB_0001_00004503:
 	ld [$CD3D], a ;0000450F
 	inc hl ;00004512
 	dec c ;00004513
-	jr nz, LAB_0001_00004503  ;z_UNTAKEN_JUMP_2 ;00004514
+	jr nz, LAB_0001_00004503 ;z_UNTAKEN_JUMP_2 ;00004514
 	pop de ;00004516
 	ld a, $0008 ;00004517
 	add d ;00004519
 	ld d, a ;0000451A
 	dec b ;0000451B
-	jr nz, LAB_0001_00004500  ;z_UNTAKEN_JUMP_2 ;0000451C
+	jr nz, LAB_0001_00004500 ;z_UNTAKEN_JUMP_2 ;0000451C
 	RET ;0000451E
 ;stopped writing due to overlap with another section

@@ -1,7 +1,7 @@
 SECTION "_001F_func_00005729",ROMX[$00005729],BANK[$001F]
 
 	call $5759 ;00005729
-	jr nc, LAB_001F_0000573A  ;0000572C
+	jr nc, LAB_001F_0000573A ;0000572C
 	nop ; not executed offset: 0000572E
 	nop ; not executed offset: 0000572F
 	nop ; not executed offset: 00005730

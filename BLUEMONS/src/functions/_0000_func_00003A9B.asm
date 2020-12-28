@@ -5,7 +5,7 @@ SECTION "_0000_func_00003A9B",ROM0[$00003A9B]
 LAB_0000_00003A9D:
 	add hl, bc ;00003A9D
 	dec a ;00003A9E
-	jr nz, LAB_0000_00003A9D  ;z_UNTAKEN_JUMP_2 ;00003A9F
+	jr nz, LAB_0000_00003A9D ;z_UNTAKEN_JUMP_2 ;00003A9F
 	RET ;00003AA1
 	nop ; not executed offset: 00003AA2
 	nop ; not executed offset: 00003AA3

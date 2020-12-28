@@ -7,7 +7,7 @@ LAB_0000_000000B5:
 	dec bc ;000000B8
 	ld a, c ;000000B9
 	or b ;000000BA
-	jr nz, LAB_0000_000000B5  ;z_UNTAKEN_JUMP_2 ;000000BB
+	jr nz, LAB_0000_000000B5 ;z_UNTAKEN_JUMP_2 ;000000BB
 	RET ;000000BD
 	nop ; not executed offset: 000000BE
 	nop ; not executed offset: 000000BF

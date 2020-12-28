@@ -10,7 +10,7 @@ LAB_001C_0000412B:
 	inc [hl] ;0000412B
 	add hl, de ;0000412C
 	dec c ;0000412D
-	jr nz, LAB_001C_0000412B  ;z_UNTAKEN_JUMP_2 ;0000412E
+	jr nz, LAB_001C_0000412B ;z_UNTAKEN_JUMP_2 ;0000412E
 	ldh a, [$0049] ;00004130
 	xor a, $00A0 ;00004132
 	ldh [$0049], a ;00004134
@@ -18,6 +18,6 @@ LAB_001C_0000412B:
 	call $12F8 ;00004138
 	ret c ;0000413B
 	dec b ;0000413C
-	jr nz, LAB_001C_00004121  ;z_UNTAKEN_JUMP_2 ;0000413D
+	jr nz, LAB_001C_00004121 ;z_UNTAKEN_JUMP_2 ;0000413D
 	RET ;0000413F
 ;stopped writing due to overlap with another section
